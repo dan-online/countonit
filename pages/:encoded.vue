@@ -98,7 +98,7 @@ useHead({
 </script>
 <template>
   <div>
-    <canvas :width="width" :height="height" ref="canvas" />
+    <canvas :width="width" :height="height" ref="canvas"></canvas>
     <div class="container mx-auto text-center pt-[40vh]">
       <div class="text-2xl md:text-4xl lg:text-6xl">
         {{ title }}
