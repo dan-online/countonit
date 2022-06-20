@@ -26,7 +26,7 @@ if (!countdowns.value.find((x) => x == encoded)) {
 const decoded = Buffer.from(encoded, "base64").toString("utf8");
 const date = new Date();
 date.setTime(parseFloat(decoded.split("_")[0]));
-const title = decoded.split("_")[1];
+const title = decoded.split("_").slice(1).join("_");
 
 const padNumber = (n: number, a = 2) => {
   return n.toString().padStart(a, "0");
