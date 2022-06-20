@@ -13,7 +13,7 @@ let confettied = false;
 
 const canvas = ref<HTMLCanvasElement>(null);
 
-const { share, isSupported } = useShare();
+const { share } = useShare();
 const { width, height } = useWindowSize();
 
 const { params } = useRoute();
@@ -105,13 +105,17 @@ useHead({
       </div>
       <Transition mode="out-in" name="page">
         <div :key="timeLeft.ago">
-          <div
-            class="numbers text-4xl md:text-6xl lg:text-8xl"
-            v-if="!timeLeft.ago"
-          >
-            {{ timeLeft.s }}
-          </div>
-          <div class="numbers text-4xl md:text-6xl lg:text-8xl" v-else>🎉</div>
+          <ClientOnly>
+            <div
+              class="numbers text-4xl md:text-6xl lg:text-8xl"
+              v-if="!timeLeft.ago"
+            >
+              {{ timeLeft.s }}
+            </div>
+            <div class="numbers text-4xl md:text-6xl lg:text-8xl" v-else>
+              🎉
+            </div>
+          </ClientOnly>
         </div>
       </Transition>
       <div class="buttons flex space-x-2 justify-center mt-2">
