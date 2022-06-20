@@ -255,21 +255,25 @@ const decodedCountdowns = computed(() => {
           </div>
         </div>
       </Transition>
-      <nuxt-link
-        :class="[
-          'border-b border-zinc-600 flex py-3 px-2 hover:bg-zinc-900 transition mt-2',
-          { 'opacity-50': new Date().getTime() > c.date.getTime() },
-        ]"
-        :to="'/' + c.original"
-        v-for="c in decodedCountdowns"
+      <div
+        :class="['max-h-100', { 'overflow-y-scroll': countdowns.length > 6 }]"
       >
-        <div class="w-1/2 text-left">
-          {{ c.title }}
-        </div>
-        <div class="w-1/2 text-right">
-          {{ c.date.toLocaleString("us") }}
-        </div>
-      </nuxt-link>
+        <nuxt-link
+          :class="[
+            'border-b border-zinc-600 flex py-3 px-2 hover:bg-zinc-200 dark:hover:bg-zinc-900 transition mt-2',
+            { 'opacity-50': new Date().getTime() > c.date.getTime() },
+          ]"
+          :to="'/' + c.original"
+          v-for="c in decodedCountdowns"
+        >
+          <div class="w-1/2 text-left">
+            {{ c.title }}
+          </div>
+          <div class="w-1/2 text-right">
+            {{ c.date.toLocaleString("us") }}
+          </div>
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
