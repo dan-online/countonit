@@ -18,6 +18,7 @@ useHead({
           <a target="_blank" href="https://github.com/dan-online/countonit">
             <mdi:github></mdi:github>
           </a>
+          <span class="sr-only">Head to Github</span>
           <span
             class="cursor-pointer"
             v-if="colorMode.value === 'dark'"
