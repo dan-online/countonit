@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { Buffer } from "buffer";
 import { useRafFn } from "@vueuse/core";
+import { useShare } from "@vueuse/core";
+
+const { share, isSupported } = useShare();
 
 const { params } = useRoute();
 const encoded = params.encoded;
@@ -51,6 +54,13 @@ const timeToGo = (date: Date) => {
   };
 };
 
+const startShare = () => {
+  share({
+    title: title + " | Count on it",
+    url: location.href,
+  });
+};
+
 const timeLeft = ref(timeToGo(date));
 
 useRafFn(() => (timeLeft.value = timeToGo(date)));
@@ -76,6 +86,24 @@ useHead({
           <div class="numbers text-4xl md:text-6xl lg:text-8xl" v-else>🎉</div>
         </div>
       </Transition>
+      <div class="buttons flex space-x-2 justify-center mt-2">
+        <nuxt-link
+          to="/"
+          class="border-2 border-zinc-600 rounded pl-5 pr-7 pt-2 pb-2.5"
+        >
+          <ic:round-home class="inline-block align-middle mr-2"></ic:round-home>
+          <span class="inline-block align-middle">Home</span>
+        </nuxt-link>
+        <button
+          @click="startShare"
+          class="border-2 border-zinc-600 rounded pl-5 pr-7 pt-2 pb-2.5"
+        >
+          <ic:round-share
+            class="inline-block align-middle mr-2"
+          ></ic:round-share>
+          <span class="inline-block align-middle">Share</span>
+        </button>
+      </div>
     </div>
   </div>
 </template>

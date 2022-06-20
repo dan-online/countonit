@@ -1,6 +1,11 @@
 <script lang="ts" setup>
 import { useRafFn } from "@vueuse/core";
 import { Buffer } from "buffer";
+import { count } from "console";
+
+const countdowns = useCookie<string[]>("countdowns", {
+  default: () => [],
+});
 
 useHead({
   title: "Home",
@@ -98,13 +103,34 @@ const finish = () => {
     `${year.value}-${month.value}-${day.value} ${hour.value}:${minute.value}:${second.value}`
   ).getTime()}_${title.value}`;
   const encoded = Buffer.from(data).toString("base64");
+  countdowns.value = [...countdowns.value, encoded];
   navigateTo("/" + encoded);
 };
 
 useRafFn(() => (date.value = getTime()));
+
+const decodedCountdowns = computed(() => {
+  const decoded = countdowns.value.map((c) => {
+    const decoded = Buffer.from(c, "base64").toString("utf8");
+    const date = new Date();
+    date.setTime(parseFloat(decoded.split("_")[0]));
+    const title = decoded.split("_")[1];
+    return {
+      original: c,
+      date,
+      title,
+    };
+  });
+  return decoded;
+});
 </script>
 <template>
-  <div class="container mx-auto text-center pt-[40vh]">
+  <div
+    :class="[
+      'container mx-auto text-center pt-[40vh]',
+      { before: countdowns.length > 0 },
+    ]"
+  >
     <div
       class="numbers text-4xl md:text-6xl lg:text-8xl align-middle inline-block fade-in-up"
     >
@@ -230,6 +256,18 @@ useRafFn(() => (date.value = getTime()));
           </div>
         </div>
       </Transition>
+      <nuxt-link
+        class="border-b border-zinc-600 flex py-3 px-2 hover:bg-zinc-900 transition mt-2"
+        :to="'/' + c.original"
+        v-for="c in decodedCountdowns"
+      >
+        <div class="w-1/2 text-left">
+          {{ c.title }}
+        </div>
+        <div class="w-1/2 text-right">
+          {{ c.date.toLocaleString("us") }}
+        </div>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -269,6 +307,17 @@ useRafFn(() => (date.value = getTime()));
   100% {
     opacity: 1;
   }
+}
+
+.before .fade-in-up {
+  animation-duration: 2s !important;
+}
+.before .fade-in {
+  opacity: 0 !important;
+  animation: unset !important;
+}
+.before .fade-in-last {
+  animation-delay: 2s !important;
 }
 
 .fade-in-up {
