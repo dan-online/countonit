@@ -32,8 +32,26 @@ const title = ref("");
 const validDate = ref(0);
 const validTime = ref(0);
 
+const getDate = () => {
+  const d = new Date();
+  d.setFullYear(parseInt(year.value));
+  d.setMonth(parseInt(month.value) - 1);
+  d.setDate(parseInt(day.value));
+  return d;
+};
+
+const getFullDate = () => {
+  const d = getDate();
+  d.setHours(
+    parseInt(hour.value),
+    parseInt(minute.value),
+    parseInt(second.value)
+  );
+  return d;
+};
+
 watch([day, month, year], () => {
-  const date = new Date(`${year.value}-${month.value}-${day.value}`);
+  const date = getDate();
 
   if (
     day.value.length === 0 ||
@@ -43,12 +61,7 @@ watch([day, month, year], () => {
     return (validDate.value = 0);
   }
 
-  if (
-    date.toString() !== "Invalid Date" &&
-    year.value.toString() == date.getFullYear().toString() &&
-    month.value.toString() == (date.getMonth() + 1).toString() &&
-    day.value.toString() == date.getDate().toString()
-  ) {
+  if (date.toString() !== "Invalid Date") {
     validDate.value = 1;
   } else {
     validDate.value = 2;
@@ -56,9 +69,7 @@ watch([day, month, year], () => {
 });
 
 watch([hour, minute, second], () => {
-  const date = new Date(
-    `${year.value}-${month.value}-${day.value} ${hour.value}:${minute.value}:${second.value}`
-  );
+  const date = getFullDate();
 
   if (
     hour.value.length === 0 ||
