@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { useRafFn } from "@vueuse/core";
 import { Buffer } from "buffer";
-import { count } from "console";
 
 const countdowns = useCookie<string[]>("countdowns", {
   default: () => [],
@@ -103,7 +102,7 @@ const finish = () => {
     `${year.value}-${month.value}-${day.value} ${hour.value}:${minute.value}:${second.value}`
   ).getTime()}_${title.value}`;
   const encoded = Buffer.from(data).toString("base64");
-  countdowns.value = [...countdowns.value, encoded];
+
   navigateTo("/" + encoded);
 };
 
@@ -121,7 +120,7 @@ const decodedCountdowns = computed(() => {
       title,
     };
   });
-  return decoded;
+  return decoded.sort((b, a) => a.date.getTime() - b.date.getTime());
 });
 </script>
 <template>
@@ -257,7 +256,10 @@ const decodedCountdowns = computed(() => {
         </div>
       </Transition>
       <nuxt-link
-        class="border-b border-zinc-600 flex py-3 px-2 hover:bg-zinc-900 transition mt-2"
+        :class="[
+          'border-b border-zinc-600 flex py-3 px-2 hover:bg-zinc-900 transition mt-2',
+          { 'opacity-50': new Date().getTime() > c.date.getTime() },
+        ]"
         :to="'/' + c.original"
         v-for="c in decodedCountdowns"
       >
@@ -305,11 +307,13 @@ const decodedCountdowns = computed(() => {
     opacity: 0;
   }
   100% {
+    pointer-events: all;
     opacity: 1;
   }
 }
 
 .before .fade-in-up {
+  pointer-events: none;
   animation-duration: 2s !important;
 }
 .before .fade-in {
@@ -317,6 +321,7 @@ const decodedCountdowns = computed(() => {
   animation: unset !important;
 }
 .before .fade-in-last {
+  pointer-events: none;
   animation-delay: 2s !important;
 }
 

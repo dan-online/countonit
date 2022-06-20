@@ -2,13 +2,28 @@
 import { Buffer } from "buffer";
 import { useRafFn } from "@vueuse/core";
 import { useShare } from "@vueuse/core";
+import { create } from "canvas-confetti";
+import { useWindowSize } from "@vueuse/core";
+
+const countdowns = useCookie<string[]>("countdowns", {
+  default: () => [],
+});
+
+let confettied = false;
+
+const canvas = ref<HTMLCanvasElement>(null);
 
 const { share, isSupported } = useShare();
+const { width, height } = useWindowSize();
 
 const { params } = useRoute();
-const encoded = params.encoded;
+const encoded = params.encoded as string;
 
-const decoded = Buffer.from(encoded as string, "base64").toString("utf8");
+if (!countdowns.value.find((x) => x == encoded)) {
+  countdowns.value = [...countdowns.value, encoded];
+}
+
+const decoded = Buffer.from(encoded, "base64").toString("utf8");
 const date = new Date();
 date.setTime(parseFloat(decoded.split("_")[0]));
 const title = decoded.split("_")[1];
@@ -38,6 +53,18 @@ const timeToGo = (date: Date) => {
 
   const msLeft = Math.trunc(distance % second);
 
+  const ago = distance < 0 ? 1 : 0;
+
+  if (ago && !confettied) {
+    const conf = create(canvas.value, {
+      disableForReducedMotion: true,
+      useWorker: true,
+      resize: true,
+    });
+    conf({ particleCount: 100, spread: 150 });
+    confettied = true;
+  }
+
   return {
     s:
       padNumber(daysLeft) +
@@ -50,7 +77,7 @@ const timeToGo = (date: Date) => {
       "s " +
       (distance < 100 ? "000" : padNumber(msLeft, 3)) +
       "ms",
-    ago: distance < 0 ? 1 : 0,
+    ago,
   };
 };
 
@@ -71,6 +98,7 @@ useHead({
 </script>
 <template>
   <div>
+    <canvas :width="width" :height="height" ref="canvas" />
     <div class="container mx-auto text-center pt-[40vh]">
       <div class="text-2xl md:text-4xl lg:text-6xl">
         {{ title }}
@@ -107,3 +135,13 @@ useHead({
     </div>
   </div>
 </template>
+<style>
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+</style>

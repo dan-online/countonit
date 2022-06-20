@@ -7,3 +7,6 @@ node_modules
 .env
 dist
 components.d.ts
+
+.yarn/install-state.gz
+.yarn/build-state.yml

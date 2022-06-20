@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useFps } from "@vueuse/core";
+
 useHead({
   titleTemplate: "%s - Count on it",
 });
