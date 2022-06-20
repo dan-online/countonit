@@ -131,7 +131,7 @@ const decodedCountdowns = computed(() => {
     ]"
   >
     <div
-      class="numbers text-4xl md:text-6xl lg:text-8xl align-middle inline-block fade-in-up"
+      class="numbers text-5xl md:text-6xl lg:text-8xl align-middle inline-block fade-in-up"
     >
       {{ date }}
     </div>
