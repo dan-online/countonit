@@ -15,11 +15,15 @@ useHead({
       <div class="w-1/2">Count on it &copy; DanCodes 2020</div>
       <div class="text-right w-1/2">
         <div class="flex space-x-2 float-right">
-          <a target="_blank" href="https://github.com/dan-online/countonit">
+          <a
+            aria-label="Open Github page"
+            target="_blank"
+            href="https://github.com/dan-online/countonit"
+          >
             <mdi:github></mdi:github>
           </a>
-          <span class="sr-only">Head to Github</span>
           <span
+            aria-label="Light mode"
             class="cursor-pointer"
             v-if="colorMode.value === 'dark'"
             @click="colorMode.preference = 'light'"
@@ -27,6 +31,7 @@ useHead({
             <ic:outline-wb-sunny></ic:outline-wb-sunny>
           </span>
           <span
+            aria-label="Dark mode"
             class="cursor-pointer"
             v-else
             @click="colorMode.preference = 'dark'"
