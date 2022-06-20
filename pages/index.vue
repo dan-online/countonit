@@ -109,9 +109,7 @@ const setPage = (p) => {
 const finish = () => {
   if (title.value.length === 0) return;
   page.value = 4;
-  const data = `${new Date(
-    `${year.value}-${month.value}-${day.value} ${hour.value}:${minute.value}:${second.value}`
-  ).getTime()}_${title.value}`;
+  const data = `${getFullDate().getTime()}_${title.value}`;
   const encoded = Buffer.from(data).toString("base64");
 
   navigateTo("/" + encoded);
