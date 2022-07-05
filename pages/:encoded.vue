@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { Buffer } from "buffer";
-import { useRafFn } from "@vueuse/core";
+import { usePermission, useRafFn, useWebNotification } from "@vueuse/core";
 import { useShare } from "@vueuse/core";
 import { create } from "canvas-confetti";
-import { useWindowSize } from "@vueuse/core";
+import { useWindowSize, useClipboard } from "@vueuse/core";
 
 const countdowns = useCookie<string[]>("countdowns", {
   default: () => [],
@@ -11,9 +11,11 @@ const countdowns = useCookie<string[]>("countdowns", {
 
 let confettied = false;
 
+const copied = ref(false);
 const canvas = ref<HTMLCanvasElement>(null);
 
-const { share } = useShare();
+const { share, isSupported: shareSupported } = useShare();
+const { copy, isSupported: clipboardSupported } = useClipboard();
 const { width, height } = useWindowSize();
 
 const { params } = useRoute();
@@ -27,6 +29,37 @@ const decoded = Buffer.from(encoded, "base64").toString("utf8");
 const date = new Date();
 date.setTime(parseFloat(decoded.split("_")[0]));
 const title = decoded.split("_").slice(1).join("_");
+
+onMounted(() => {
+  const perm = usePermission("notifications");
+  if (perm.value === "prompt") {
+    const { show: showReqNotif } = useWebNotification({
+      title: "Notifications enabled!",
+      dir: "auto",
+      lang: "en",
+      renotify: true,
+      tag: "reqNotif",
+    });
+    showReqNotif();
+  }
+});
+
+const sharing = () => {
+  if (shareSupported) {
+    share({
+      title: title + " | Count on it",
+      url: location.href,
+    });
+  } else if (clipboardSupported) {
+    copy(location.href);
+    copied.value = true;
+    setTimeout(() => {
+      copied.value = false;
+    }, 3000);
+  } else {
+    alert("Shareand and clipboard is not supported");
+  }
+};
 
 const padNumber = (n: number, a = 2) => {
   return n.toString().padStart(a, "0");
@@ -63,6 +96,23 @@ const timeToGo = (date: Date) => {
     });
     conf({ particleCount: 100, spread: 150 });
     confettied = true;
+
+    const {
+      isSupported: notificationSupported,
+      show,
+      onClick: onNotificationClick,
+    } = useWebNotification({
+      title,
+      dir: "auto",
+      lang: "en",
+      renotify: true,
+      tag: "notif",
+      icon: location.origin + "/favicon.ico",
+    });
+    onNotificationClick.on(() => {
+      window.focus();
+    });
+    if (notificationSupported) show();
   }
 
   return {
@@ -79,13 +129,6 @@ const timeToGo = (date: Date) => {
       "ms",
     ago,
   };
-};
-
-const startShare = () => {
-  share({
-    title: title + " | Count on it",
-    url: location.href,
-  });
 };
 
 const timeLeft = ref(timeToGo(date));
@@ -127,13 +170,20 @@ useHead({
           <span class="inline-block align-middle">Home</span>
         </nuxt-link>
         <button
-          @click="startShare"
+          @click="sharing"
           class="border-2 border-zinc-600 rounded pl-5 pr-7 pt-2 pb-2.5"
         >
           <ic:round-share
+            v-if="!copied"
             class="inline-block align-middle mr-2"
           ></ic:round-share>
-          <span class="inline-block align-middle">Share</span>
+          <ic:round-check
+            class="inline-block align-middle mr-2"
+            v-else
+          ></ic:round-check>
+          <span class="inline-block align-middle">{{
+            copied ? "Copied" : "Share"
+          }}</span>
         </button>
       </div>
     </div>

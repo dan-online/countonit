@@ -16,7 +16,9 @@ useHead({
       </div>
 
       <div class="px-2 bottom-0 flex w-full">
-        <div class="w-2/3">Count on it &copy; DanCodes 2020</div>
+        <div class="w-2/3">
+          Count on it &copy; DanCodes {{ new Date().getFullYear() }}
+        </div>
         <div class="text-right w-1/3">
           <div class="flex space-x-2 float-right">
             <a
