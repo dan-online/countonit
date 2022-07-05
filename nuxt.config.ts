@@ -53,17 +53,25 @@ export default defineNuxtConfig({
           sizes: "16x16",
           href: "/favicon-16x16.png",
         },
-        { rel: "manifest", href: "/site.webmanifest" },
         { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#5bbad5" },
       ],
     },
   },
   buildModules: [
     "nuxt-windicss",
+    "@kevinmarrec/nuxt-pwa",
     "@nuxtjs/color-mode",
     "@nuxtjs/google-fonts",
     "unplugin-icons/nuxt",
   ],
+  pwa: {
+    meta: {
+      mobileAppIOS: true,
+    },
+    workbox: {
+      enabled: true,
+    },
+  },
   colorMode: {
     classSuffix: "",
   },

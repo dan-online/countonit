@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "countonit",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,6 +9,7 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.1.63",
+    "@kevinmarrec/nuxt-pwa": "^0.3.1",
     "@nuxtjs/color-mode": "^3.1.4",
     "@nuxtjs/google-fonts": "^1.3.0",
     "@types/canvas-confetti": "^1",
