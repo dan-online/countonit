@@ -382,13 +382,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.1.72":
-  version: 2.1.72
-  resolution: "@iconify/json@npm:2.1.72"
+"@iconify/json@npm:^2.1.76":
+  version: 2.1.76
+  resolution: "@iconify/json@npm:2.1.76"
   dependencies:
     "@iconify/types": "*"
     pathe: ^0.3.0
-  checksum: 504b77a55325ae6c2439eee0f2f73d9a6a054d8d1d4978d415baaccd53b4765ff5bacb656f0e274dbee3a0e5aeba7ccc47ddeb39ca4f65f3e1525e5e1de63b8e
+  checksum: a9da0c41aef057f637fc69cc7547a147247ba5a3d7647564e0c99039a6100bb092a502a3a1526e3a5483f329fc1131f0c3a709f23cda1c9781adb27af57f6884
   languageName: node
   linkType: hard
 
@@ -601,33 +601,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.0.0-rc.3":
-  version: 3.0.0-rc.3
-  resolution: "@nuxt/kit@npm:3.0.0-rc.3"
-  dependencies:
-    "@nuxt/schema": ^3.0.0-rc.3
-    c12: ^0.2.7
-    consola: ^2.15.3
-    defu: ^6.0.0
-    globby: ^13.1.1
-    hash-sum: ^2.0.0
-    ignore: ^5.2.0
-    jiti: ^1.13.0
-    knitwork: ^0.1.1
-    lodash.template: ^4.5.0
-    mlly: ^0.5.2
-    pathe: ^0.3.0
-    pkg-types: ^0.3.2
-    scule: ^0.2.1
-    semver: ^7.3.7
-    unctx: ^1.1.4
-    unimport: ^0.1.9
-    untyped: ^0.4.4
-  checksum: 523249e8f5fbf14344907171d15326ad00b53a32641b26a7cf07dcf88409676d44ea056a864f8653f4ad0de6a0fb95facc6afc0958e455de9814abd3f60603a0
-  languageName: node
-  linkType: hard
-
-"@nuxt/kit@npm:^3.0.0-rc.3, @nuxt/kit@npm:^3.0.0-rc.4":
+"@nuxt/kit@npm:3.0.0-rc.4, @nuxt/kit@npm:^3.0.0-rc.3, @nuxt/kit@npm:^3.0.0-rc.4":
   version: 3.0.0-rc.4
   resolution: "@nuxt/kit@npm:3.0.0-rc.4"
   dependencies:
@@ -653,7 +627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/schema@npm:^3.0.0-rc.1, @nuxt/schema@npm:^3.0.0-rc.3, @nuxt/schema@npm:^3.0.0-rc.4":
+"@nuxt/schema@npm:^3.0.0-rc.1, @nuxt/schema@npm:^3.0.0-rc.4":
   version: 3.0.0-rc.4
   resolution: "@nuxt/schema@npm:3.0.0-rc.4"
   dependencies:
@@ -1218,13 +1192,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^8.7.5":
-  version: 8.7.5
-  resolution: "@vueuse/core@npm:8.7.5"
+"@vueuse/core@npm:^8.9.2":
+  version: 8.9.2
+  resolution: "@vueuse/core@npm:8.9.2"
   dependencies:
     "@types/web-bluetooth": ^0.0.14
-    "@vueuse/metadata": 8.7.5
-    "@vueuse/shared": 8.7.5
+    "@vueuse/metadata": 8.9.2
+    "@vueuse/shared": 8.9.2
     vue-demi: "*"
   peerDependencies:
     "@vue/composition-api": ^1.1.0
@@ -1234,7 +1208,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: a92c6cd6c59060b1690326c42b251741f68f0cfff96fb3c932cb857be67b27994736e135630a0855a5d547ef7c54a2675423fdf200b496710a171a8abaebf612
+  checksum: 9d9d694c78468fcbecb8485807f673c035c272ad690e266b7b7c2e79023c0a6ee25c0318242737a87f6ca39ed43ea15d683ec66b991ae56b91cf6175e577c726
   languageName: node
   linkType: hard
 
@@ -1247,16 +1221,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:8.7.5":
-  version: 8.7.5
-  resolution: "@vueuse/metadata@npm:8.7.5"
-  checksum: 02d7ae472eaad115a147d8bdbf6f0afeba56ced2cfa40e981333498593a7cef92debb2dddc83ea154b81201b0f8de9c7b38ac3034ccb29a3edfd4a4c4c0960c1
+"@vueuse/metadata@npm:8.9.2":
+  version: 8.9.2
+  resolution: "@vueuse/metadata@npm:8.9.2"
+  checksum: 003c35acbaf4cd3f0cb70e4a32461ee29d1cbcc737ac02a8b41eb330b6cb860b8747fbdcee8aa063753d06b5bc26f8f36f5cc3ef4725e3e183218428ea4a1866
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:8.7.5":
-  version: 8.7.5
-  resolution: "@vueuse/shared@npm:8.7.5"
+"@vueuse/shared@npm:8.9.2":
+  version: 8.9.2
+  resolution: "@vueuse/shared@npm:8.9.2"
   dependencies:
     vue-demi: "*"
   peerDependencies:
@@ -1267,7 +1241,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 475147a8de209332edd7a520fea0d7076cf1b275a5757aeffb9c6d4e9ecd2e7943b953f803cc30dac55776122f82091063ba089d09b9a48726c7b692f33efb72
+  checksum: e6085a9c19a4be4edd40775656958e4f8fdb82e338442e09c30aada0d7e1abc55c58393fbbf0dc782a59ff7594d93b125a4aef1ccadda84479c41dd013d5ac11
   languageName: node
   linkType: hard
 
@@ -1282,7 +1256,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@windicss/plugin-utils@npm:1.8.4, @windicss/plugin-utils@npm:^1.1.1, @windicss/plugin-utils@npm:^1.8.4":
+"@windicss/config@npm:1.8.6":
+  version: 1.8.6
+  resolution: "@windicss/config@npm:1.8.6"
+  dependencies:
+    debug: ^4.3.4
+    jiti: ^1.14.0
+    windicss: ^3.5.6
+  checksum: c8691f1899bf5c754927127d4766641cdf27d646f3994f859109717e3e5f3fb3afdb98ab4453e7bd3112b9c349f4c0ace9a7cea8ced38f94a724df6fbebc62a3
+  languageName: node
+  linkType: hard
+
+"@windicss/plugin-utils@npm:1.8.6, @windicss/plugin-utils@npm:^1.8.6":
+  version: 1.8.6
+  resolution: "@windicss/plugin-utils@npm:1.8.6"
+  dependencies:
+    "@antfu/utils": ^0.5.2
+    "@windicss/config": 1.8.6
+    debug: ^4.3.4
+    fast-glob: ^3.2.11
+    magic-string: ^0.26.2
+    micromatch: ^4.0.5
+    windicss: ^3.5.6
+  checksum: 1cd725f6412f5615d8a2f50aee84bf84ec66fccc011d234e188bfe21a18b27089c91d70b922ee720d1ff31ed772a73cfea2ad9e460461cf8e543fefb239d4d70
+  languageName: node
+  linkType: hard
+
+"@windicss/plugin-utils@npm:^1.1.1":
   version: 1.8.4
   resolution: "@windicss/plugin-utils@npm:1.8.4"
   dependencies:
@@ -2162,19 +2162,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.1.72
+    "@iconify/json": ^2.1.76
     "@kevinmarrec/nuxt-pwa": ^0.3.1
     "@nuxtjs/color-mode": ^3.1.4
     "@nuxtjs/google-fonts": ^1.3.0
     "@types/canvas-confetti": ^1
-    "@vueuse/core": ^8.7.5
+    "@vueuse/core": ^8.9.2
     buffer: ^6.0.3
     canvas-confetti: ^1.5.1
     nuxt: 3.0.0-rc.4
-    nuxt-windicss: ^2.4.2
+    nuxt-windicss: ^2.4.3
     typescript: ^4.7.4
     unplugin-icons: ^0.14.7
-    unplugin-vue-components: ^0.21.0
+    unplugin-vue-components: ^0.21.1
   languageName: unknown
   linkType: soft
 
@@ -3536,7 +3536,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^0.7.8, h3@npm:^0.7.9":
+"h3@npm:^0.7.10, h3@npm:^0.7.9":
   version: 0.7.10
   resolution: "h3@npm:0.7.10"
   dependencies:
@@ -4047,6 +4047,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jiti@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "jiti@npm:1.14.0"
+  bin:
+    jiti: bin/jiti.js
+  checksum: 61e7123caa397b8a53068120b7496b95048b96feba3cc1a263265e9b0bcfb375e90a182e07643a29e5380d92c485918d5e7db3805cc9511404e7e9c93234725b
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -4153,7 +4162,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"listhen@npm:^0.2.11, listhen@npm:^0.2.12":
+"listhen@npm:^0.2.11, listhen@npm:^0.2.12, listhen@npm:^0.2.13":
   version: 0.2.13
   resolution: "listhen@npm:0.2.13"
   dependencies:
@@ -5070,25 +5079,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-windicss@npm:^2.4.2":
-  version: 2.4.2
-  resolution: "nuxt-windicss@npm:2.4.2"
+"nuxt-windicss@npm:^2.4.3":
+  version: 2.4.3
+  resolution: "nuxt-windicss@npm:2.4.3"
   dependencies:
-    "@nuxt/kit": 3.0.0-rc.3
-    "@windicss/plugin-utils": ^1.8.4
+    "@nuxt/kit": 3.0.0-rc.4
+    "@windicss/plugin-utils": ^1.8.6
     consola: ^2.15.3
     defu: ^6.0.0
     fs-extra: ^10.1.0
-    h3: ^0.7.8
-    listhen: ^0.2.11
-    pathe: ^0.3.0
+    h3: ^0.7.10
+    listhen: ^0.2.13
+    pathe: ^0.3.2
     read-cache: ^1.0.0
     sirv: ^2.0.2
-    vite-plugin-windicss: ^1.8.4
-    windicss: ^3.5.4
+    vite-plugin-windicss: ^1.8.6
+    windicss: ^3.5.6
     windicss-analysis: ^0.3.5
-    windicss-webpack-plugin: ^1.7.3
-  checksum: ea69e8c756dc3ee380bfda7b2abb39574eb69295ae70e941b96458a51d1db5824812624ed2a2f67b7b13b5a85858680583abdbc3f0ef70e3758893127c2d58f8
+    windicss-webpack-plugin: ^1.7.4
+  checksum: 1eacdf85d98cb8084f3c714cecd7ec397a4f2f6367b236e425b5e0440f98c43b983cfd87393b2f3f38736a96dd2cd87aeefc2c1df2deddcc737ee4dec1551b19
   languageName: node
   linkType: hard
 
@@ -5402,6 +5411,13 @@ __metadata:
   version: 0.3.0
   resolution: "pathe@npm:0.3.0"
   checksum: 1da704da2b625b9062be4079b6f8d5609e053add991520fb6a43905b492ee48e5c61cc6fb87f7ae970df39d4b7be1e6840285f683d670f8b430481e46c81c863
+  languageName: node
+  linkType: hard
+
+"pathe@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "pathe@npm:0.3.2"
+  checksum: a3fdfe2875b074d5dd20f32d89d0d2ded2341423cdccfaec820bc994ea9d76badba2de6fd522fcf580dc5e5b3adb238d3b71855001d428c5554fb61223001eed
   languageName: node
   linkType: hard
 
@@ -7029,7 +7045,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unimport@npm:^0.1.6, unimport@npm:^0.1.9":
+"unimport@npm:^0.1.6":
   version: 0.1.9
   resolution: "unimport@npm:0.1.9"
   dependencies:
@@ -7125,9 +7141,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-components@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "unplugin-vue-components@npm:0.21.0"
+"unplugin-vue-components@npm:^0.21.1":
+  version: 0.21.1
+  resolution: "unplugin-vue-components@npm:0.21.1"
   dependencies:
     "@antfu/utils": ^0.5.2
     "@rollup/pluginutils": ^4.2.1
@@ -7145,7 +7161,7 @@ __metadata:
   peerDependenciesMeta:
     "@babel/parser":
       optional: true
-  checksum: 425bf93f8d17dd1627730954cf07c44437aff07bd541d281daf9f260ddd751522e9aa13d88260e2694d4c735363744efa8b372042a6bf2e02c212d01f0203c58
+  checksum: 20b250663f84e648fb153ddb661104352433fadfdbd94c566004a16752a4e0351601db92be481bfc1bd9721618d02a2392e605ec8612646425d4d57fee10a7cc
   languageName: node
   linkType: hard
 
@@ -7321,17 +7337,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-windicss@npm:^1.8.4":
-  version: 1.8.4
-  resolution: "vite-plugin-windicss@npm:1.8.4"
+"vite-plugin-windicss@npm:^1.8.6":
+  version: 1.8.6
+  resolution: "vite-plugin-windicss@npm:1.8.6"
   dependencies:
-    "@windicss/plugin-utils": 1.8.4
+    "@windicss/plugin-utils": 1.8.6
     debug: ^4.3.4
     kolorist: ^1.5.1
-    windicss: ^3.5.1
+    windicss: ^3.5.6
   peerDependencies:
     vite: ^2.0.1
-  checksum: 657b63b123c5e2696e409e140b1b56a7f02131908ec247dd7e1cf7439aabe707f2f2d1dff857001f8b9206c9771939fb79e5886175d243097d031887f3bd9fa8
+  checksum: 1a28f1f85ddf5504fd8c3d1af6f32887e992603e5fa91b08f817d1d117ce42f26f958c77b567bd58ba3a8b53780e29d8f0fd7ec4200446eb01242c71c370b241
   languageName: node
   linkType: hard
 
@@ -7564,28 +7580,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"windicss-webpack-plugin@npm:^1.7.3":
-  version: 1.7.3
-  resolution: "windicss-webpack-plugin@npm:1.7.3"
+"windicss-webpack-plugin@npm:^1.7.4":
+  version: 1.7.4
+  resolution: "windicss-webpack-plugin@npm:1.7.4"
   dependencies:
-    "@windicss/plugin-utils": ^1.8.4
+    "@windicss/plugin-utils": ^1.8.6
     debug: ^4.3.4
     get-port: ^6.1.2
     loader-utils: ^2.0.0
     lodash: ^4.17.21
     pathe: ^0.2.0
     webpack-virtual-modules: ^0.4.3
-    windicss: ^3.5.4
-  checksum: 3ae274a64b9124b088e4b9aeb2280bb358d6daf539e2630c670c39bb5c1211b88480f147e99907f377ed58ff1df3efd5bfa20dfd5a4c79a2085c9ad2aca733df
+    windicss: ^3.5.6
+  checksum: c59c9ceba104d6aee28271147df67ad52c3cfadc3c9ffd1fa2cbe7e524fb0d8a0f98fe3fa40d6ffbd4b5119002b4d6a6938356d7280382631d9a7a161a309b0a
   languageName: node
   linkType: hard
 
-"windicss@npm:^3.5.1, windicss@npm:^3.5.4":
+"windicss@npm:^3.5.1":
   version: 3.5.4
   resolution: "windicss@npm:3.5.4"
   bin:
     windicss: cli/index.js
   checksum: acad2be202354afa977a1fbb4e309dfc7b8858e14d401ab2d3417730519782fd61fc072cc9bae4c2eb1be635f515aa7df800304d0819307bd7168bfeec68f0fc
+  languageName: node
+  linkType: hard
+
+"windicss@npm:^3.5.6":
+  version: 3.5.6
+  resolution: "windicss@npm:3.5.6"
+  bin:
+    windicss: cli/index.js
+  checksum: e4b6ab048488387b5bebfa6e65ccd0e55504f9133dfeb8c6cd4e817925b9941fff7680dc2aacc5923d293560e834427108039acff89eabe26a7429c0151eb1e7
   languageName: node
   linkType: hard
 
