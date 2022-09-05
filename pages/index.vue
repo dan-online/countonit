@@ -341,14 +341,17 @@ const decodedCountdowns = computed(() => {
 .fade-in-up {
   opacity: 0;
   position: relative;
+  will-change: transform, opacity;
   animation: fade-in-up 3s cubic-bezier(0.77, 0, 0.175, 1) 0.6s forwards;
 }
 .fade-in {
   opacity: 0;
+  will-change: transform, opacity;
   animation: fade-in 5s cubic-bezier(0.77, 0, 0.175, 1) 3s forwards;
 }
 .fade-in-last {
   opacity: 0;
+  will-change: transform, opacity;
   animation: fade-in-last 0.5s cubic-bezier(0.77, 0, 0.175, 1) 6s forwards;
 }
 </style>
