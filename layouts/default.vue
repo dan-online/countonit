@@ -53,7 +53,7 @@ useHead({
 <style>
 html,
 body {
-  font-family: "Major Mono Display", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .page-enter-active,
