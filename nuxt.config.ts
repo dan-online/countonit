@@ -78,7 +78,7 @@ export default defineNuxtConfig({
   components: true,
   googleFonts: {
     families: {
-      "Major Mono Display": [400],
+      "Roboto Mono": [400],
     },
   },
   vite: {
