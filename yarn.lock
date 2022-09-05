@@ -404,7 +404,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.1.102":
+"@iconify/json@npm:^2.1.103":
   version: 2.1.103
   resolution: "@iconify/json@npm:2.1.103"
   dependencies:
@@ -1959,7 +1959,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.1.102
+    "@iconify/json": ^2.1.103
     "@kevinmarrec/nuxt-pwa": ^0.4.2
     "@nuxtjs/color-mode": ^3.1.4
     "@nuxtjs/google-fonts": ^3.0.0-0
