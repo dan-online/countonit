@@ -8,7 +8,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@iconify/json": "^2.1.105",
+    "@iconify/json": "^2.1.108",
     "@kevinmarrec/nuxt-pwa": "^0.4.2",
     "@nuxtjs/color-mode": "^3.1.5",
     "@nuxtjs/google-fonts": "^3.0.0-0",
@@ -16,10 +16,10 @@
     "@vueuse/core": "^9.2.0",
     "buffer": "^6.0.3",
     "canvas-confetti": "^1.5.1",
-    "nuxt": "3.0.0-rc.9",
+    "nuxt": "3.0.0-rc.10",
     "nuxt-windicss": "^2.5.2",
     "typescript": "^4.8.3",
-    "unplugin-icons": "^0.14.9",
-    "unplugin-vue-components": "^0.22.4"
+    "unplugin-icons": "^0.14.10",
+    "unplugin-vue-components": "^0.22.7"
   }
 }
