@@ -25,6 +25,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@antfu/install-pkg@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@antfu/install-pkg@npm:0.1.1"
+  dependencies:
+    execa: ^5.1.1
+    find-up: ^5.0.0
+  checksum: a463af6a0df3cf0769fd88ec94d135ca54e4f7329422fa3815bf1e71fb4ca510ec02bb39935bec65a15a8d8df5e76bf8e6a7df0c7c6cc512aefa3bec85ad903f
+  languageName: node
+  linkType: hard
+
 "@antfu/utils@npm:^0.5.2":
   version: 0.5.2
   resolution: "@antfu/utils@npm:0.5.2"
@@ -555,13 +565,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.1.112":
-  version: 2.1.112
-  resolution: "@iconify/json@npm:2.1.112"
+"@iconify/json@npm:^2.1.117":
+  version: 2.1.117
+  resolution: "@iconify/json@npm:2.1.117"
   dependencies:
     "@iconify/types": "*"
     pathe: ^0.3.0
-  checksum: 9d043109a52903ded483b6759bdfccb67e28b3dd811415c5ac36c2e4c2e37fe7d1e4e69497a2c7ffc8385b5c7c31b7cc25bfe802588e890b699cb600b7b00044
+  checksum: 6fa286789a862ab0815a2ce610d40bc8d6834eaaaeba629aba9370b510b6b6682eda2374a819d572fe6a37a837141f4fb7cc20335eefb03741f87750ea6103ff
   languageName: node
   linkType: hard
 
@@ -662,14 +672,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kevinmarrec/nuxt-pwa@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "@kevinmarrec/nuxt-pwa@npm:0.4.2"
+"@kevinmarrec/nuxt-pwa@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "@kevinmarrec/nuxt-pwa@npm:0.6.1"
   dependencies:
     hasha: ^5.2.2
-    sharp: ^0.30.7
-    std-env: ^3.1.1
-  checksum: a543151b0c447c480bc85b2ffffde68f75aec3f666e0c19b82dba36658ed9684e88be854351eb95e4d6abb1ed561df1ccb5330e0f7a0292d92c5455afd30491a
+    sharp: ^0.31.1
+    std-env: ^3.2.1
+  checksum: ec9798902b5de7c6a771134f511267f4fbd6ae3f48027264f4c16030eac2d287ed29c5fc762fdacc512e3105a8aa74c6fb019121c86b29bc34ea47fe3ce1b8bb
   languageName: node
   linkType: hard
 
@@ -1312,15 +1322,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^9.2.0":
-  version: 9.2.0
-  resolution: "@vueuse/core@npm:9.2.0"
+"@vueuse/core@npm:^9.3.0":
+  version: 9.3.0
+  resolution: "@vueuse/core@npm:9.3.0"
   dependencies:
     "@types/web-bluetooth": ^0.0.15
-    "@vueuse/metadata": 9.2.0
-    "@vueuse/shared": 9.2.0
+    "@vueuse/metadata": 9.3.0
+    "@vueuse/shared": 9.3.0
     vue-demi: "*"
-  checksum: 2ae6ef58ae932fe260911239888405e39e7cf7f9afdd512cc184248d97b66e1ec15a6a54b75835db040e68c35eafefe265071ff1a42b45d220217b8f9974a403
+  checksum: 875f9ee7b9a2b88167b32e58ba8677e61369077459643e396c6037e2fd2421a0dd9f7c3bf5de7cff8c68ea6bd10d9b0653bd210f6b15544e3e85c991d9b26870
   languageName: node
   linkType: hard
 
@@ -1335,14 +1345,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:9.2.0":
-  version: 9.2.0
-  resolution: "@vueuse/metadata@npm:9.2.0"
-  checksum: 99c63f3ba1bf8b4aac9ec226d918906842589a93f3affafb17aaa9c64da433c8747f6fd829ac6a2f313c1d8c6003742ccbedba45d2dcce38da7ea5ff657e63c9
+"@vueuse/metadata@npm:9.3.0":
+  version: 9.3.0
+  resolution: "@vueuse/metadata@npm:9.3.0"
+  checksum: 94e066f8f51a5a558426656f6240eb3e4c20e46c7f3e28579974a3f48b0c1bd806943f21ef5a43ca668d84ee5cb6bd7cd606fbdb036c4388936e99b9d509ce26
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:9.2.0, @vueuse/shared@npm:^9.2.0":
+"@vueuse/shared@npm:9.3.0":
+  version: 9.3.0
+  resolution: "@vueuse/shared@npm:9.3.0"
+  dependencies:
+    vue-demi: "*"
+  checksum: c20fcfbbad3a17fa26191823f4022b7dd6f7a6e5ede648466562f3b9f4268fb417cd825ed002e2d74ef8f81971a3ca1691f35b4497676173b62c077b2a17d032
+  languageName: node
+  linkType: hard
+
+"@vueuse/shared@npm:^9.2.0":
   version: 9.2.0
   resolution: "@vueuse/shared@npm:9.2.0"
   dependencies:
@@ -2246,18 +2265,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.1.112
-    "@kevinmarrec/nuxt-pwa": ^0.4.2
+    "@iconify/json": ^2.1.117
+    "@kevinmarrec/nuxt-pwa": ^0.6.1
     "@nuxtjs/color-mode": ^3.1.6
     "@nuxtjs/google-fonts": ^3.0.0-0
     "@types/canvas-confetti": ^1
-    "@vueuse/core": ^9.2.0
+    "@vueuse/core": ^9.3.0
     buffer: ^6.0.3
     canvas-confetti: ^1.5.1
     nuxt: 3.0.0-rc.11
     nuxt-windicss: ^2.5.2
-    typescript: ^4.8.3
-    unplugin-icons: ^0.14.10
+    typescript: ^4.8.4
+    unplugin-icons: ^0.14.11
     unplugin-vue-components: ^0.22.7
   languageName: unknown
   linkType: soft
@@ -6669,9 +6688,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.30.7":
-  version: 0.30.7
-  resolution: "sharp@npm:0.30.7"
+"sharp@npm:^0.31.1":
+  version: 0.31.1
+  resolution: "sharp@npm:0.31.1"
   dependencies:
     color: ^4.2.3
     detect-libc: ^2.0.1
@@ -6682,7 +6701,7 @@ __metadata:
     simple-get: ^4.0.1
     tar-fs: ^2.1.1
     tunnel-agent: ^0.6.0
-  checksum: bbc63ca3c7ea8a5bff32cd77022cfea30e25a03f5bd031e935924bf6cf0e11e3388e8b0e22b3137bf8816aa73407f1e4fbeb190f3a35605c27ffca9f32b91601
+  checksum: 42d00c9c6c61e5cf752c29583253782b3d821ee15fc2648c1f59892b94e9bc170a47ee9d138aa0a61c1c2ee9b7573ee54444c857fff887908701c4208710480d
   languageName: node
   linkType: hard
 
@@ -6875,7 +6894,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"std-env@npm:^3.1.1, std-env@npm:^3.2.1":
+"std-env@npm:^3.2.1":
   version: 3.2.1
   resolution: "std-env@npm:3.2.1"
   checksum: c046af2573ba6e02c9ffcfd5a2c3f94f160404915941be177b93d6d1695078e487293fed6ab4fa95680e75a331eccf0f6dbe0b86babda15056c594e600a99dc4
@@ -7226,23 +7245,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.8.3":
-  version: 4.8.3
-  resolution: "typescript@npm:4.8.3"
+"typescript@npm:^4.8.4":
+  version: 4.8.4
+  resolution: "typescript@npm:4.8.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8286a5edcaf3d68e65c451aa1e7150ad1cf53ee0813c07ec35b7abdfdb10f355ecaa13c6a226a694ae7a67785fd7eeebf89f845da0b4f7e4a35561ddc459aba0
+  checksum: 3e4f061658e0c8f36c820802fa809e0fd812b85687a9a2f5430bc3d0368e37d1c9605c3ce9b39df9a05af2ece67b1d844f9f6ea8ff42819f13bcb80f85629af0
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
-  version: 4.8.3
-  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=7ad353"
+"typescript@patch:typescript@^4.8.4#~builtin<compat/typescript>":
+  version: 4.8.4
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 0404a09c625df01934ef774b45ce1ca57ccae41cd625fcdbb82056715320d9329e70d9d75c2c732ec6ef947444ca978c189a332b71fa21f5c1437d5a83e24906
+  checksum: 563a0ef47abae6df27a9a3ab38f75fc681f633ccf1a3502b1108e252e187787893de689220f4544aaf95a371a4eb3141e4a337deb9895de5ac3c1ca76430e5f0
   languageName: node
   linkType: hard
 
@@ -7334,17 +7353,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^0.14.10":
-  version: 0.14.10
-  resolution: "unplugin-icons@npm:0.14.10"
+"unplugin-icons@npm:^0.14.11":
+  version: 0.14.11
+  resolution: "unplugin-icons@npm:0.14.11"
   dependencies:
-    "@antfu/install-pkg": ^0.1.0
+    "@antfu/install-pkg": ^0.1.1
     "@antfu/utils": ^0.5.2
     "@iconify/utils": ^2.0.0
     debug: ^4.3.4
     kolorist: ^1.6.0
     local-pkg: ^0.4.2
-    unplugin: ^0.9.5
+    unplugin: ^0.9.6
   peerDependencies:
     "@svgr/core": ">=5.5.0"
     "@vue/compiler-sfc": ^3.0.2
@@ -7359,7 +7378,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: e2cb55f4a428c54710949059cdf415771f46acb1cd437c07acee63f2c510d577d636779bd1f4e2bddaf3bad41b61a44b97fcf05d361216ae7e6bda834c9df00f
+  checksum: a13c3f8bcb37e0730bec442320ade1a69d1e94d9e8051862eacd4f89ccee359c3dbece0a00b4091e509eed938733c8085b2a9d6547f16e61144fec59218cf6f3
   languageName: node
   linkType: hard
 
@@ -7410,6 +7429,18 @@ __metadata:
     webpack:
       optional: true
   checksum: 4020ab5b3aad9c378abbcccd245d5320e7db9929012cea15961d1426a26e7c94abf8cee647fde4aba4fe5f8f2bd22aa349473902930aa2b1144d9ebb17405163
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^0.9.6":
+  version: 0.9.6
+  resolution: "unplugin@npm:0.9.6"
+  dependencies:
+    acorn: ^8.8.0
+    chokidar: ^3.5.3
+    webpack-sources: ^3.2.3
+    webpack-virtual-modules: ^0.4.5
+  checksum: 6f544f7c53511e0b9064112353562159efd6fc0f38a78ff7e9ac5d3c09b298b59ea565165bbfab0eec08b016d50c5e453673581712bfcf875924d06e04bd77cd
   languageName: node
   linkType: hard
 
@@ -7777,6 +7808,13 @@ __metadata:
   version: 0.4.4
   resolution: "webpack-virtual-modules@npm:0.4.4"
   checksum: 6720b4c47d76dc9cbaff557562506c192da7560a90395e9918a418e257a0c0cda9f5e3ac92107ec0789f8f23ad942313bd8cdebc95031d0adef1032bf6142bc7
+  languageName: node
+  linkType: hard
+
+"webpack-virtual-modules@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "webpack-virtual-modules@npm:0.4.5"
+  checksum: 0ae9a8b50d0cb1e43da5ff8acaa7b99c34a42f0d6cc83a82908fb6e131e574a949d19948df4fdd3de0dbfdbadb2b93ceb4a740c55727a4236eb3b2bbc8f785a6
   languageName: node
   linkType: hard
 
