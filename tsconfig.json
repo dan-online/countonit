@@ -6,6 +6,5 @@
       "nuxt-windicss",
       "unplugin-icons/types/vue"
     ],
-    
   },
 }

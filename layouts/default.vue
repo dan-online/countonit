@@ -1,4 +1,8 @@
 <script setup lang="ts">
+import SunIcon from "~icons/ic/outline-wb-sunny";
+import GitIcon from "~icons/mdi/github";
+import MoonIcon from "~icons/majesticons/moon";
+
 const colorMode = useColorMode();
 
 useHead({
@@ -26,7 +30,7 @@ useHead({
               target="_blank"
               href="https://github.com/dan-online/countonit"
             >
-              <mdi:github></mdi:github>
+              <GitIcon></GitIcon>
             </a>
             <span
               aria-label="Light mode"
@@ -34,7 +38,7 @@ useHead({
               v-if="colorMode.value === 'dark'"
               @click="colorMode.preference = 'light'"
             >
-              <ic:outline-wb-sunny></ic:outline-wb-sunny>
+              <SunIcon />
             </span>
             <span
               aria-label="Dark mode"
@@ -42,7 +46,7 @@ useHead({
               v-else
               @click="colorMode.preference = 'dark'"
             >
-              <majesticons:moon></majesticons:moon>
+              <MoonIcon></MoonIcon>
             </span>
           </div>
         </div>

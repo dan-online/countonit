@@ -2,10 +2,10 @@
   "private": true,
   "name": "countonit",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
   },
   "devDependencies": {
     "@iconify/json": "^2.1.122",
@@ -16,7 +16,7 @@
     "@vueuse/core": "^9.3.0",
     "buffer": "^6.0.3",
     "canvas-confetti": "^1.5.1",
-    "nuxt": "3.0.0-rc.11",
+    "nuxt": "3.0.0-rc.12",
     "nuxt-windicss": "^2.5.2",
     "typescript": "^4.8.4",
     "unplugin-icons": "^0.14.12",
