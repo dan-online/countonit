@@ -5,6 +5,10 @@ import { useShare } from "@vueuse/core";
 import { create } from "canvas-confetti";
 import { useWindowSize, useClipboard } from "@vueuse/core";
 
+import RoundHomeIcon from "~icons/ic/round-home";
+import RoundShareIcon from "~icons/ic/round-share";
+import RoundCheckIcon from "~icons/ic/round-check";
+
 const countdowns = useCookie<string[]>("countdowns", {
   default: () => [],
 });
@@ -166,21 +170,21 @@ useHead({
           to="/"
           class="border-2 border-zinc-600 rounded pl-5 pr-7 pt-2 pb-2.5"
         >
-          <ic:round-home class="inline-block align-middle mr-2"></ic:round-home>
+          <RoundHomeIcon class="inline-block align-middle mr-2"></RoundHomeIcon>
           <span class="inline-block align-middle">Home</span>
         </nuxt-link>
         <button
           @click="sharing"
           class="border-2 border-zinc-600 rounded pl-5 pr-7 pt-2 pb-2.5"
         >
-          <ic:round-share
+          <RoundShareIcon
             v-if="!copied"
             class="inline-block align-middle mr-2"
-          ></ic:round-share>
-          <ic:round-check
+          ></RoundShareIcon>
+          <RoundCheckIcon
             class="inline-block align-middle mr-2"
             v-else
-          ></ic:round-check>
+          ></RoundCheckIcon>
           <span class="inline-block align-middle">{{
             copied ? "Copied" : "Share"
           }}</span>

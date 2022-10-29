@@ -2,6 +2,11 @@
 import { useRafFn } from "@vueuse/core";
 import { Buffer } from "buffer";
 
+import CalendarIcon from "~icons/ic/baseline-calendar-month";
+import ChevronRightIcon from "~icons/ic/outline-chevron-right";
+import ClockIcon from "~icons/mdi/clock";
+import TextIcon from "~icons/ic/twotone-text-fields";
+
 const countdowns = useCookie<string[]>("countdowns", {
   default: () => [],
 });
@@ -157,7 +162,7 @@ const decodedCountdowns = computed(() => {
           <div :key="page">
             <div v-if="page === 0" class="flex space-x-4 justify-center">
               <div class="mt-2">
-                <ic:baseline-calendar-month></ic:baseline-calendar-month>
+                <CalendarIcon />
               </div>
               <input
                 v-model="day"
@@ -193,12 +198,12 @@ const decodedCountdowns = computed(() => {
                 ]"
                 @click="setPage(1)"
               >
-                <ic:outline-chevron-right></ic:outline-chevron-right>
+                <ChevronRightIcon />
               </div>
             </div>
             <div v-if="page === 1" class="flex space-x-4 justify-center">
               <div class="mt-2">
-                <mdi:clock></mdi:clock>
+                <ClockIcon />
               </div>
               <input
                 v-model="hour"
@@ -235,12 +240,12 @@ const decodedCountdowns = computed(() => {
                 ]"
                 @click="setPage(2)"
               >
-                <ic:outline-chevron-right></ic:outline-chevron-right>
+                <ChevronRightIcon />
               </div>
             </div>
             <div v-if="page === 2" class="flex space-x-4 justify-center">
               <div class="mt-2">
-                <ic:twotone-text-fields></ic:twotone-text-fields>
+                <TextIcon />
               </div>
 
               <input
@@ -260,7 +265,7 @@ const decodedCountdowns = computed(() => {
                 ]"
                 @click="finish()"
               >
-                <ic:outline-chevron-right></ic:outline-chevron-right>
+                <ChevronRightIcon></ChevronRightIcon>
               </div>
             </div>
           </div>

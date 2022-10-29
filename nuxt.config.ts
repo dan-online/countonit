@@ -1,10 +1,6 @@
-import { defineNuxtConfig } from "nuxt";
-import IconsResolver from "unplugin-icons/resolver";
-import ViteComponents from "unplugin-vue-components/vite";
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   // ssr: false,
-
   app: {
     head: {
       htmlAttrs: {
@@ -80,18 +76,5 @@ export default defineNuxtConfig({
     families: {
       "Roboto Mono": [400],
     },
-  },
-  vite: {
-    plugins: [
-      ViteComponents({
-        resolvers: [
-          IconsResolver({
-            componentPrefix: "",
-          }),
-        ],
-        dts: true,
-      }),
-    ],
-    // base: '/_nuxt/'
   },
 });
