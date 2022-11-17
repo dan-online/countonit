@@ -53,12 +53,12 @@ export default defineNuxtConfig({
       ],
     },
   },
-  buildModules: [
+  modules: [
     "nuxt-windicss",
     "@kevinmarrec/nuxt-pwa",
     "@nuxtjs/color-mode",
     "@nuxtjs/google-fonts",
-    "unplugin-icons/nuxt",
+    "unplugin-icons-nuxt3",
   ],
   pwa: {
     meta: {

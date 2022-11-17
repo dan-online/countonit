@@ -16,7 +16,7 @@ const countdowns = useCookie<string[]>("countdowns", {
 let confettied = false;
 
 const copied = ref(false);
-const canvas = ref<HTMLCanvasElement>(null);
+const canvas = ref<HTMLCanvasElement | null>(null);
 
 const { share, isSupported: shareSupported } = useShare();
 const { copy, isSupported: clipboardSupported } = useClipboard();
@@ -25,7 +25,7 @@ const { width, height } = useWindowSize();
 const { params } = useRoute();
 const encoded = params.encoded as string;
 
-if (!countdowns.value.find((x) => x == encoded)) {
+if (countdowns.value && !countdowns.value.find((x) => x == encoded)) {
   countdowns.value = [...countdowns.value, encoded];
 }
 
@@ -92,7 +92,7 @@ const timeToGo = (date: Date) => {
 
   const ago = distance < 0 ? 1 : 0;
 
-  if (ago && !confettied) {
+  if (ago && !confettied && canvas.value) {
     const conf = create(canvas.value, {
       disableForReducedMotion: true,
       useWorker: true,
