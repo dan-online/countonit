@@ -4,6 +4,8 @@
   "compilerOptions": {
     "types": [
       "nuxt-windicss",
+      "@kevinmarrec/nuxt-pwa",
+      "@nuxtjs/color-mode",
       "unplugin-icons/types/vue"
     ],
   },
