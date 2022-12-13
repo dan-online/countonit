@@ -97,7 +97,7 @@ watch([hour, minute, second], () => {
 
 const date = ref(getTime());
 
-const setPage = (p) => {
+const setPage = (p: number) => {
   switch (page.value) {
     case 0:
       if (!validDate) return;
@@ -123,7 +123,7 @@ const finish = () => {
 useRafFn(() => (date.value = getTime()));
 
 const decodedCountdowns = computed(() => {
-  const decoded = countdowns.value.map((c) => {
+  const decoded = countdowns.value!.map((c) => {
     const decoded = Buffer.from(c, "base64").toString("utf8");
     const date = new Date();
     date.setTime(parseFloat(decoded.split("_")[0]));
@@ -142,7 +142,7 @@ const decodedCountdowns = computed(() => {
     <div
       :class="[
         'container mx-auto text-center pt-[40vh]',
-        { before: countdowns.length > 0 },
+        { before: countdowns!.length > 0 },
       ]"
     >
       <div

@@ -1,11 +1,9 @@
 <script setup lang="ts">
-// import SunIcon from "~icons/ic/outline-wb-sunny";
-// import GitIcon from "~icons/mdi/github";
-// import MoonIcon from "~icons/majesticons/moon";
+import SunIcon from "~icons/ic/outline-wb-sunny";
+import GitIcon from "~icons/mdi/github";
+import MoonIcon from "~icons/majesticons/moon";
 
-// const colorMode = useColorMode();
-
-// Waiting on https://github.com/nuxt-modules/color-mode/issues/175
+const colorMode = useColorMode();
 
 useHead({
   titleTemplate: "%s - Count on it",
@@ -34,7 +32,7 @@ useHead({
             >
               <GitIcon></GitIcon>
             </a>
-            <!-- <span
+            <span
               aria-label="Light mode"
               class="cursor-pointer"
               v-if="colorMode.value === 'dark'"
@@ -49,7 +47,7 @@ useHead({
               @click="colorMode.preference = 'dark'"
             >
               <MoonIcon></MoonIcon>
-            </span> -->
+            </span>
           </div>
         </div>
       </div>
