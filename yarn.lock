@@ -543,13 +543,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.1.157":
-  version: 2.1.157
-  resolution: "@iconify/json@npm:2.1.157"
+"@iconify/json@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@iconify/json@npm:2.2.0"
   dependencies:
     "@iconify/types": "*"
-    pathe: ^0.3.0
-  checksum: b81b1943c80507dd5fa73d61f9fac1b58358b8a718fa122a802ea7256c3f073b3bb093162d650d68fa1dd7234b29e0e2a2112d182d9440f337384c5de0099349
+    pathe: ^1.0.0
+  checksum: 1c5d9d1f2ae6ca48b2008ffa6910d12d73961acba5bdd1bf12cee6cc78788a90ec4c53540be9c796d08acbc8cee12e3d6fb9ccaf8582c395afefb1985a7f2e02
   languageName: node
   linkType: hard
 
@@ -2268,7 +2268,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.1.157
+    "@iconify/json": ^2.2.0
     "@kevinmarrec/nuxt-pwa": ^0.13.0
     "@nuxtjs/color-mode": ^3.2.0
     "@nuxtjs/google-fonts": ^3.0.0-1
@@ -5586,7 +5586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pathe@npm:^0.3.0, pathe@npm:^0.3.5, pathe@npm:^0.3.8, pathe@npm:^0.3.9":
+"pathe@npm:^0.3.5, pathe@npm:^0.3.8, pathe@npm:^0.3.9":
   version: 0.3.9
   resolution: "pathe@npm:0.3.9"
   checksum: 9afcbaa79c5f8ec603b6b0a20b9accfcec8de57e26738f4a844de4625cfb07cc733b7234387ef42c7ab23a49b91846b6b51cb247584793842a3179539af463df
