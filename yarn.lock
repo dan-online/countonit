@@ -543,13 +543,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@iconify/json@npm:2.2.0"
+"@iconify/json@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "@iconify/json@npm:2.2.3"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.0.0
-  checksum: 1c5d9d1f2ae6ca48b2008ffa6910d12d73961acba5bdd1bf12cee6cc78788a90ec4c53540be9c796d08acbc8cee12e3d6fb9ccaf8582c395afefb1985a7f2e02
+  checksum: d5bf32b6418a76947b65de5c00c51aeace9b2c871fc93c85d55ec43f6188aa3e83b13d11070be962e410a06d399c3bafbdb80040abbbfd55083e5b3f12a098de
   languageName: node
   linkType: hard
 
@@ -574,17 +574,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/utils@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@iconify/utils@npm:2.0.3"
+"@iconify/utils@npm:^2.0.9":
+  version: 2.0.11
+  resolution: "@iconify/utils@npm:2.0.11"
   dependencies:
     "@antfu/install-pkg": ^0.1.1
-    "@antfu/utils": ^0.5.2
+    "@antfu/utils": ^0.7.2
     "@iconify/types": ^2.0.0
     debug: ^4.3.4
     kolorist: ^1.6.0
     local-pkg: ^0.4.2
-  checksum: 66a2369fb88ebc6ad0651a822ce96d3efd9431cd3217eda2b24827419da496e4c258ef5ed90da95373e80c8ecb4156cf4bc26e1e70532c391721fa26f939a9c1
+  checksum: d6e22b7ba866225c988ccef117381c0181053fef0234990ee78eceb21315a92c3aef783925909d5e0614b4ba70189df16995d44c8949b0f3531ecf23fbe75f7b
   languageName: node
   linkType: hard
 
@@ -657,14 +657,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kevinmarrec/nuxt-pwa@npm:^0.13.0":
-  version: 0.13.0
-  resolution: "@kevinmarrec/nuxt-pwa@npm:0.13.0"
+"@kevinmarrec/nuxt-pwa@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "@kevinmarrec/nuxt-pwa@npm:0.14.0"
   dependencies:
     hasha: ^5.2.2
-    sharp: ^0.31.2
+    sharp: ^0.31.3
     std-env: ^3.3.1
-  checksum: 6604bc32bd4be6f1ff2f8cbbc7a1f158eb47a6547a859290122019164477a9dd04f617ac47c174abe6de0d0e9a5f6146bb9ab207f6aa5c097d0b3983dd30f568
+  checksum: 8049872af0a19f8f859b884c4325b67c4814de3533307534c339922eb6fa3fc04c1ca53593cae1c69c984750c51443eedf74aec568cc216d8fda7c1f32777748
   languageName: node
   linkType: hard
 
@@ -1363,15 +1363,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^9.9.0":
-  version: 9.9.0
-  resolution: "@vueuse/core@npm:9.9.0"
+"@vueuse/core@npm:^9.10.0":
+  version: 9.10.0
+  resolution: "@vueuse/core@npm:9.10.0"
   dependencies:
     "@types/web-bluetooth": ^0.0.16
-    "@vueuse/metadata": 9.9.0
-    "@vueuse/shared": 9.9.0
+    "@vueuse/metadata": 9.10.0
+    "@vueuse/shared": 9.10.0
     vue-demi: "*"
-  checksum: a3edc33994515a2d91fe84767a5230d51debcf7f4a53afc9c56c3793d4f47771fbcf43d32f3e33b1db316267a7607a60d31de068ef86d8fb77e7c4e050e29b36
+  checksum: 9e3b0c0baa1e3daf3ae508f76acf4e73ec80a2089d420f5de7c203e9fecd8cd4596a5e4635bbf09a762e0bba022f26806ee23b69d5d01a5d0e4b76e2ad2878a4
   languageName: node
   linkType: hard
 
@@ -1389,19 +1389,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:9.9.0":
-  version: 9.9.0
-  resolution: "@vueuse/metadata@npm:9.9.0"
-  checksum: d0dd631f79d515c4650eb35671a38b282cf9458f3b86768a97a5d74fb1836440db1e0fed178d084d5174c926aa586509ed31597f0b062240ce268e6fe1f6c6fd
+"@vueuse/metadata@npm:9.10.0":
+  version: 9.10.0
+  resolution: "@vueuse/metadata@npm:9.10.0"
+  checksum: ef9b4970cc1795e197279b59cfd82c7475323c17ae02701e5a6be26df1258330d4fafb7c05d005dfa7af97277509a8589d62467925319e1c5c17715805554bb7
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:9.9.0":
-  version: 9.9.0
-  resolution: "@vueuse/shared@npm:9.9.0"
+"@vueuse/shared@npm:9.10.0":
+  version: 9.10.0
+  resolution: "@vueuse/shared@npm:9.10.0"
   dependencies:
     vue-demi: "*"
-  checksum: 590ffe76c883f7c53acecd1dfa34eea148d88a4bd17642bbaef10f8aed2b558cb50dbeeb1e07827f589a6b96a2bb2cc57dab576b20c34a6e5ab4b517d47b7b9d
+  checksum: 1481ad7273eb8835a42fd49805d32ae97465188d260ddb28fdffebda7bedea5943bf49c3bd128121b32719307eaf1cb69b37b60fa1195c10a555e7aec3d78c22
   languageName: node
   linkType: hard
 
@@ -2268,18 +2268,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.0
-    "@kevinmarrec/nuxt-pwa": ^0.13.0
+    "@iconify/json": ^2.2.3
+    "@kevinmarrec/nuxt-pwa": ^0.14.0
     "@nuxtjs/color-mode": ^3.2.0
     "@nuxtjs/google-fonts": ^3.0.0-1
     "@types/canvas-confetti": ^1
-    "@vueuse/core": ^9.9.0
+    "@vueuse/core": ^9.10.0
     buffer: ^6.0.3
     canvas-confetti: ^1.6.0
     nuxt: ^3.0.0
     nuxt-windicss: ^2.6.0
     typescript: ^4.9.4
-    unplugin-icons: ^0.14.15
+    unplugin-icons: ^0.15.1
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.22.12
   languageName: unknown
@@ -6524,9 +6524,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.31.2":
-  version: 0.31.2
-  resolution: "sharp@npm:0.31.2"
+"sharp@npm:^0.31.3":
+  version: 0.31.3
+  resolution: "sharp@npm:0.31.3"
   dependencies:
     color: ^4.2.3
     detect-libc: ^2.0.1
@@ -6537,7 +6537,7 @@ __metadata:
     simple-get: ^4.0.1
     tar-fs: ^2.1.1
     tunnel-agent: ^0.6.0
-  checksum: 076717b7a073ea47bb522ff2931b74b6608daeb6f7ae334e4848d47fdf4d23bcb18cd49044fd5fb27ef27a1a4aa87d141894d67d1c4bb15a6e2e63cf4dbe329e
+  checksum: 29fd1dfbc616c6389f53f366cec342b4353d9f2a37e98952ca273db38dca57dfa0f336322d6d763f0fae876042ead22fd86ffe26d70c32ade2458d421db60d04
   languageName: node
   linkType: hard
 
@@ -7293,20 +7293,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^0.14.15":
-  version: 0.14.15
-  resolution: "unplugin-icons@npm:0.14.15"
+"unplugin-icons@npm:^0.15.1":
+  version: 0.15.1
+  resolution: "unplugin-icons@npm:0.15.1"
   dependencies:
     "@antfu/install-pkg": ^0.1.1
     "@antfu/utils": ^0.7.2
-    "@iconify/utils": ^2.0.3
+    "@iconify/utils": ^2.0.9
     debug: ^4.3.4
     kolorist: ^1.6.0
     local-pkg: ^0.4.2
     unplugin: ^1.0.1
   peerDependencies:
     "@svgr/core": ">=5.5.0"
-    "@vue/compiler-sfc": ^3.0.2
+    "@vue/compiler-sfc": ^3.0.2 || ^2.7.0
     vue-template-compiler: ^2.6.12
     vue-template-es2015-compiler: ^1.9.0
   peerDependenciesMeta:
@@ -7318,7 +7318,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: a460a3e213c2e6b4fc36e43f9b5cd5e5ece2ef64c7775a51223c6ad477a2a1e1a1f0f16c76eb0ee79615d53d1c9e43c44d5de5fe2bb0e3b69056baf3b55a60fc
+  checksum: 188e2e2ef43e0f9857f502e4cc22dff154ff2465c5ae7c17e8466cdfe33bef50bd40f5e5db91cd0ff3a24bbba6946b4352edda587049ffcee4a759d09f8482a2
   languageName: node
   linkType: hard
 
