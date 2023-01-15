@@ -543,13 +543,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "@iconify/json@npm:2.2.3"
+"@iconify/json@npm:^2.2.6":
+  version: 2.2.6
+  resolution: "@iconify/json@npm:2.2.6"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.0.0
-  checksum: d5bf32b6418a76947b65de5c00c51aeace9b2c871fc93c85d55ec43f6188aa3e83b13d11070be962e410a06d399c3bafbdb80040abbbfd55083e5b3f12a098de
+  checksum: 746a46dd379c0cd9bd8aa0e80b843ca36c5b5dd7ec4d1e6bfc20408edbbf9ca372e633f124067cf11c4e3fb19bc3540680430051fa595bf2d1846ab52ed236ef
   languageName: node
   linkType: hard
 
@@ -657,14 +657,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kevinmarrec/nuxt-pwa@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "@kevinmarrec/nuxt-pwa@npm:0.14.0"
+"@kevinmarrec/nuxt-pwa@npm:^0.15.0":
+  version: 0.15.0
+  resolution: "@kevinmarrec/nuxt-pwa@npm:0.15.0"
   dependencies:
     hasha: ^5.2.2
     sharp: ^0.31.3
     std-env: ^3.3.1
-  checksum: 8049872af0a19f8f859b884c4325b67c4814de3533307534c339922eb6fa3fc04c1ca53593cae1c69c984750c51443eedf74aec568cc216d8fda7c1f32777748
+  checksum: 54004fa7682cd60974b91ec66c883fc1cff72200eae5958cce0a2178f5cf9e61fdc118187a6fed1935aa58fc1bdcd2eb7abb7d864d604013d2b564a2d1718be9
   languageName: node
   linkType: hard
 
@@ -2268,8 +2268,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.3
-    "@kevinmarrec/nuxt-pwa": ^0.14.0
+    "@iconify/json": ^2.2.6
+    "@kevinmarrec/nuxt-pwa": ^0.15.0
     "@nuxtjs/color-mode": ^3.2.0
     "@nuxtjs/google-fonts": ^3.0.0-1
     "@types/canvas-confetti": ^1
