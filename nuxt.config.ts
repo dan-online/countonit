@@ -57,7 +57,7 @@ export default defineNuxtConfig({
     "nuxt-windicss",
     "@kevinmarrec/nuxt-pwa",
     "@nuxtjs/color-mode",
-    "@nuxtjs/google-fonts",
+    "nuxt-bunny-fonts",
     "unplugin-icons-nuxt3",
   ],
   pwa: {
@@ -72,8 +72,8 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
   components: true,
-  googleFonts: {
-    families: {
+  bunnyFonts: {
+    fonts: {
       "Roboto Mono": [400],
     },
   },
