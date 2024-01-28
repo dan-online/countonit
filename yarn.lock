@@ -1612,13 +1612,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.171":
-  version: 2.2.171
-  resolution: "@iconify/json@npm:2.2.171"
+"@iconify/json@npm:^2.2.175":
+  version: 2.2.175
+  resolution: "@iconify/json@npm:2.2.175"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.0
-  checksum: b3fb612e66916a9f21d1514a1c133fd26ec1b33013e54b027e3001368a1f3c8959ae863153f4fd60bf056a20baf6230d835c221e304e37b5da37ba402b1a9f1b
+  checksum: 9aa2c48b551918d12f94836c0fcc5e71e5fc8840533b2835939c2762af8a6726d1814456a0997f3393601364a7e4f63a696e92cd663b3c82712ac135e37b6524
   languageName: node
   linkType: hard
 
@@ -1643,17 +1643,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/utils@npm:^2.1.12":
-  version: 2.1.12
-  resolution: "@iconify/utils@npm:2.1.12"
+"@iconify/utils@npm:^2.1.20":
+  version: 2.1.20
+  resolution: "@iconify/utils@npm:2.1.20"
   dependencies:
     "@antfu/install-pkg": ^0.1.1
     "@antfu/utils": ^0.7.5
     "@iconify/types": ^2.0.0
     debug: ^4.3.4
     kolorist: ^1.8.0
-    local-pkg: ^0.4.3
-  checksum: 5b307eb5f3407f9ff77b5bfe492e52ac6f0d645df76efdf333f12ccfb31514f224968ebc761c251f7be4a931511d5a147515ea721075d6c742e5d0ee6838fed6
+    local-pkg: ^0.5.0
+  checksum: 159cc0cfac564a55cd34bd720e9bb7e980b91cd501cfed34cc6b4eb03db6a705d700839330a14cf763cf89f4065c2152ea4496907f531a7b9ca6e2cedcb69662
   languageName: node
   linkType: hard
 
@@ -4503,7 +4503,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.171
+    "@iconify/json": ^2.2.175
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.3.2
     "@types/canvas-confetti": ^1.6.4
@@ -4514,7 +4514,7 @@ __metadata:
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^2.6.1
     typescript: ^5.3.3
-    unplugin-icons: ^0.18.2
+    unplugin-icons: ^0.18.3
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.26.0
   languageName: unknown
@@ -10857,13 +10857,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^0.18.2":
-  version: 0.18.2
-  resolution: "unplugin-icons@npm:0.18.2"
+"unplugin-icons@npm:^0.18.3":
+  version: 0.18.3
+  resolution: "unplugin-icons@npm:0.18.3"
   dependencies:
     "@antfu/install-pkg": ^0.3.0
     "@antfu/utils": ^0.7.6
-    "@iconify/utils": ^2.1.12
+    "@iconify/utils": ^2.1.20
     debug: ^4.3.4
     kolorist: ^1.8.0
     local-pkg: ^0.5.0
@@ -10885,7 +10885,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: 2674710ed80384eb86cec4892618cef86757145c0f098d694233aac3002a7c627e7445ed90b684fd86a1b7f014af3a5676b576d60db38f558865e995fdf2fd7e
+  checksum: 04bdbae9b956e640ae7a37709e289bcdbbcdb15bbf4d691e98e647a740f631d877fffbb9b519ac7f14857cedcbe8690d4bb3ff0a9e619dae6860f80b8a46d85e
   languageName: node
   linkType: hard
 
