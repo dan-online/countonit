@@ -19,7 +19,7 @@
     "nuxt-bunny-fonts": "^1.1.2",
     "nuxt-windicss": "^2.6.1",
     "typescript": "^5.3.3",
-    "unplugin-icons": "^0.18.3",
+    "unplugin-icons": "^0.18.4",
     "unplugin-icons-nuxt3": "^1.0.0",
     "unplugin-vue-components": "^0.26.0"
   }
