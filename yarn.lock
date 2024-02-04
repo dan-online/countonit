@@ -25,7 +25,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/install-pkg@npm:^0.3.0":
+"@antfu/install-pkg@npm:^0.3.1":
   version: 0.3.1
   resolution: "@antfu/install-pkg@npm:0.3.1"
   dependencies:
@@ -1943,9 +1943,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/utils@npm:^2.1.20":
-  version: 2.1.20
-  resolution: "@iconify/utils@npm:2.1.20"
+"@iconify/utils@npm:^2.1.21":
+  version: 2.1.21
+  resolution: "@iconify/utils@npm:2.1.21"
   dependencies:
     "@antfu/install-pkg": ^0.1.1
     "@antfu/utils": ^0.7.5
@@ -1953,7 +1953,8 @@ __metadata:
     debug: ^4.3.4
     kolorist: ^1.8.0
     local-pkg: ^0.5.0
-  checksum: 159cc0cfac564a55cd34bd720e9bb7e980b91cd501cfed34cc6b4eb03db6a705d700839330a14cf763cf89f4065c2152ea4496907f531a7b9ca6e2cedcb69662
+    mlly: ^1.5.0
+  checksum: 0fef844cc5ac5a206792a559c7d548a76321d4252e57607de96549d99135d7e6adcc44fa937018ba6deba5775b6fbb4daa90c7c42a51f1d7df772d5614e0b0cd
   languageName: node
   linkType: hard
 
@@ -4860,7 +4861,7 @@ __metadata:
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^2.6.1
     typescript: ^5.3.3
-    unplugin-icons: ^0.18.3
+    unplugin-icons: ^0.18.4
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.26.0
   languageName: unknown
@@ -11298,17 +11299,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^0.18.3":
-  version: 0.18.3
-  resolution: "unplugin-icons@npm:0.18.3"
+"unplugin-icons@npm:^0.18.4":
+  version: 0.18.4
+  resolution: "unplugin-icons@npm:0.18.4"
   dependencies:
-    "@antfu/install-pkg": ^0.3.0
-    "@antfu/utils": ^0.7.6
-    "@iconify/utils": ^2.1.20
+    "@antfu/install-pkg": ^0.3.1
+    "@antfu/utils": ^0.7.7
+    "@iconify/utils": ^2.1.21
     debug: ^4.3.4
     kolorist: ^1.8.0
     local-pkg: ^0.5.0
-    unplugin: ^1.5.1
+    unplugin: ^1.6.0
   peerDependencies:
     "@svgr/core": ">=7.0.0"
     "@svgx/core": ^1.0.1
@@ -11326,7 +11327,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: 04bdbae9b956e640ae7a37709e289bcdbbcdb15bbf4d691e98e647a740f631d877fffbb9b519ac7f14857cedcbe8690d4bb3ff0a9e619dae6860f80b8a46d85e
+  checksum: 50e5acff22e8a486f6c581097b0b2c3d1eb4b8dc84be8df7003685601aceb93899ba2bf4cd961faee88f2710784a23ea9d7fc7a3ed5d0c7e46baca4d31bca59b
   languageName: node
   linkType: hard
 
