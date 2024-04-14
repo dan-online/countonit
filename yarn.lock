@@ -1912,13 +1912,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.197":
-  version: 2.2.197
-  resolution: "@iconify/json@npm:2.2.197"
+"@iconify/json@npm:^2.2.200":
+  version: 2.2.200
+  resolution: "@iconify/json@npm:2.2.200"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 7c2dddf499d31581a1cc8fc2ea81e013a165430754ffd59a9113a1229a43e1128e657dad1fc01c5ed33a2a82a0505ffd208fdec992d00a31ce4fadb02f4f828e
+  checksum: a33c591d0e9c3905902a93d30839add6908b216334a993d7a101d26764ef7d973634bba19ef9225cd02cac3f69acc15238f1151e4b6999732140acfb1708c69b
   languageName: node
   linkType: hard
 
@@ -2338,7 +2338,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.11.2":
+"@nuxt/kit@npm:3.11.2, @nuxt/kit@npm:^3.11.2":
   version: 3.11.2
   resolution: "@nuxt/kit@npm:3.11.2"
   dependencies:
@@ -2698,13 +2698,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/color-mode@npm:^3.3.3":
-  version: 3.3.3
-  resolution: "@nuxtjs/color-mode@npm:3.3.3"
+"@nuxtjs/color-mode@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@nuxtjs/color-mode@npm:3.4.0"
   dependencies:
-    "@nuxt/kit": ^3.11.1
+    "@nuxt/kit": ^3.11.2
     pathe: ^1.1.2
-  checksum: 4151a5abb34fbaca471bc4d28a180b698312f4bff848241b783602472162b78e7d74b414a7ddcd5904f3a1102c4f8f377724da5e017bd1401f8d0384215bff5e
+    pkg-types: ^1.0.3
+    semver: ^7.6.0
+  checksum: ecb055e7a9a59b1d8819665d9f8eb0333d544c2f88d1767cf98ef64ba258b84290f01d4aa9172c18ec8432cbb6390c06df65c0ac9c36322c15a7d13a8915534e
   languageName: node
   linkType: hard
 
@@ -5218,9 +5220,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.197
+    "@iconify/json": ^2.2.200
     "@kevinmarrec/nuxt-pwa": ^0.17.0
-    "@nuxtjs/color-mode": ^3.3.3
+    "@nuxtjs/color-mode": ^3.4.0
     "@types/canvas-confetti": ^1.6.4
     "@vueuse/core": ^10.9.0
     buffer: ^6.0.3
@@ -5228,7 +5230,7 @@ __metadata:
     nuxt: ^3.11.2
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^2.6.1
-    typescript: ^5.4.4
+    typescript: ^5.4.5
     unplugin-icons: ^0.18.5
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.26.0
@@ -11519,23 +11521,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.4.4":
-  version: 5.4.4
-  resolution: "typescript@npm:5.4.4"
+"typescript@npm:^5.4.5":
+  version: 5.4.5
+  resolution: "typescript@npm:5.4.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: a7b54515d2adfc75c8d14188af0216b6b9ae3c192c9732797c24b1d14608eac1c83be7b1c65ce6f4ced0f2c40583f11b495fe1ba3d982afadbcc523517d183c8
+  checksum: 53c879c6fa1e3bcb194b274d4501ba1985894b2c2692fa079db03c5a5a7140587a1e04e1ba03184605d35f439b40192d9e138eb3279ca8eee313c081c8bcd9b0
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.4.4#~builtin<compat/typescript>":
-  version: 5.4.4
-  resolution: "typescript@patch:typescript@npm%3A5.4.4#~builtin<compat/typescript>::version=5.4.4&hash=7ad353"
+"typescript@patch:typescript@^5.4.5#~builtin<compat/typescript>":
+  version: 5.4.5
+  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 34e8fe6b892736204c6c72ae9e3027fb37f23e34cf748340712101cbe9c55527c379c4d275c407e5c66ff73eca56c7425b1fb4ac5b23dc7a62413cf6a8af98e8
+  checksum: 2373c693f3b328f3b2387c3efafe6d257b057a142f9a79291854b14ff4d5367d3d730810aee981726b677ae0fd8329b23309da3b6aaab8263dbdccf1da07a3ba
   languageName: node
   linkType: hard
 
