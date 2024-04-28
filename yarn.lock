@@ -1912,13 +1912,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.202":
-  version: 2.2.202
-  resolution: "@iconify/json@npm:2.2.202"
+"@iconify/json@npm:^2.2.204":
+  version: 2.2.204
+  resolution: "@iconify/json@npm:2.2.204"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 43bf50f4998fc7ec66e39bea54d2127625ca5918e071c13a7eed5beba397bd6781cb3fe241a6d1c3f0d6ddbc06d69fcd31b4240e975d33abb4c4d6768d876850
+  checksum: 65e5e9e19dba4e29526abf8fcdbea91e17fce344da58ca3fdbf1646413818e0d8ba9a406e622195525932652c545164555f1d1e53be943532a8167f6507ab75d
   languageName: node
   linkType: hard
 
@@ -2698,15 +2698,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/color-mode@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "@nuxtjs/color-mode@npm:3.4.0"
+"@nuxtjs/color-mode@npm:^3.4.1":
+  version: 3.4.1
+  resolution: "@nuxtjs/color-mode@npm:3.4.1"
   dependencies:
     "@nuxt/kit": ^3.11.2
     pathe: ^1.1.2
-    pkg-types: ^1.0.3
+    pkg-types: ^1.1.0
     semver: ^7.6.0
-  checksum: ecb055e7a9a59b1d8819665d9f8eb0333d544c2f88d1767cf98ef64ba258b84290f01d4aa9172c18ec8432cbb6390c06df65c0ac9c36322c15a7d13a8915534e
+  checksum: 5245cb21ec437723df8fb39560c84d58757240a5546bfd8ebf5d7950bfdfb93f22ba0cc25eaba640f2a1515e022fc5875b465b86968062112c8c4e2a54e2ee65
   languageName: node
   linkType: hard
 
@@ -5134,6 +5134,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"confbox@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "confbox@npm:0.1.7"
+  checksum: bde836c26f5154a348b0c0a757f8a0138929e5737e0553be3c4f07a056abca618b861aa63ac3b22d344789b56be99a1382928933e08cd500df00213bf4d8fb43
+  languageName: node
+  linkType: hard
+
 "connect@npm:^3.7.0":
   version: 3.7.0
   resolution: "connect@npm:3.7.0"
@@ -5220,9 +5227,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.202
+    "@iconify/json": ^2.2.204
     "@kevinmarrec/nuxt-pwa": ^0.17.0
-    "@nuxtjs/color-mode": ^3.4.0
+    "@nuxtjs/color-mode": ^3.4.1
     "@types/canvas-confetti": ^1.6.4
     "@vueuse/core": ^10.9.0
     buffer: ^6.0.3
@@ -9531,6 +9538,17 @@ __metadata:
     mlly: ^1.2.0
     pathe: ^1.1.0
   checksum: 4b305c834b912ddcc8a0fe77530c0b0321fe340396f84cbb87aecdbc126606f47f2178f23b8639e71a4870f9631c7217aef52ffed0ae17ea2dbbe7e43d116a6e
+  languageName: node
+  linkType: hard
+
+"pkg-types@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "pkg-types@npm:1.1.0"
+  dependencies:
+    confbox: ^0.1.7
+    mlly: ^1.6.1
+    pathe: ^1.1.2
+  checksum: 9cd3684e308c622db79efc8edc9291662e01cb42ed624ea2fa5400fb6eab94679b4e5b28808e9b763298a023c2381fd72a363a1c84a9073c96609af4c5c59f8f
   languageName: node
   linkType: hard
 
