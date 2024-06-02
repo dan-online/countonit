@@ -1898,13 +1898,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.213":
-  version: 2.2.213
-  resolution: "@iconify/json@npm:2.2.213"
+"@iconify/json@npm:^2.2.215":
+  version: 2.2.215
+  resolution: "@iconify/json@npm:2.2.215"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 177b36958271c01b60c1681fc61d2f4560a2f694bbbf6522030f2ba36a1c58f282ea1c96ce7aa34840c3e56b16a24f113be6d013b8bbe2d22876e2f5ac229685
+  checksum: efea197ac6b87993644aa8d594b6ed1ceb7bc281ab63c5d2860efd473dc68e70663af5abb638fa7fd8f363daac5d68f7da6b8b41c9e92b1ca931ea44bd0d13ca
   languageName: node
   linkType: hard
 
@@ -3929,6 +3929,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vueuse/core@npm:^10.10.0":
+  version: 10.10.0
+  resolution: "@vueuse/core@npm:10.10.0"
+  dependencies:
+    "@types/web-bluetooth": ^0.0.20
+    "@vueuse/metadata": 10.10.0
+    "@vueuse/shared": 10.10.0
+    vue-demi: ">=0.14.7"
+  checksum: 68f96dd1953c2e2cd27becc585bcb77d074c9623d77192776dff398902af95280f3d379588c457359af9607ccf53f146bfa4b1420f196cb340604b6ba9af4b37
+  languageName: node
+  linkType: hard
+
 "@vueuse/integrations@npm:^10.9.0":
   version: 10.9.0
   resolution: "@vueuse/integrations@npm:10.9.0"
@@ -3978,10 +3990,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vueuse/metadata@npm:10.10.0":
+  version: 10.10.0
+  resolution: "@vueuse/metadata@npm:10.10.0"
+  checksum: e52fde82acfba324d60f64340d92e5ba35e6b1fa7c1d1c341d12ff282220ec0367270685b9e34afcbba2e2cc8da05b2e0df67fa3176c0410837e612ee5886f83
+  languageName: node
+  linkType: hard
+
 "@vueuse/metadata@npm:10.9.0":
   version: 10.9.0
   resolution: "@vueuse/metadata@npm:10.9.0"
   checksum: e381d3134e1a5965e157503ddb1187f671316386ab0c779d3fc1b9c91d6658086c417414f4642554382ac43fd800d7565f5f25824b678433f937a917e931387e
+  languageName: node
+  linkType: hard
+
+"@vueuse/shared@npm:10.10.0":
+  version: 10.10.0
+  resolution: "@vueuse/shared@npm:10.10.0"
+  dependencies:
+    vue-demi: ">=0.14.7"
+  checksum: 97cb6fade8fdf9c65b97d96f255f819680f894a5d7541c72c8480518fba0baeaebcc45c261d2986a42943a498c1f202138de192a0352717a4e2ce6478d9273d5
   languageName: node
   linkType: hard
 
@@ -5232,11 +5260,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.213
+    "@iconify/json": ^2.2.215
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.4.1
     "@types/canvas-confetti": ^1.6.4
-    "@vueuse/core": ^10.9.0
+    "@vueuse/core": ^10.10.0
     buffer: ^6.0.3
     canvas-confetti: ^1.9.3
     nuxt: ^3.11.2
