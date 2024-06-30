@@ -48,6 +48,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@antfu/utils@npm:^0.7.10":
+  version: 0.7.10
+  resolution: "@antfu/utils@npm:0.7.10"
+  checksum: b93dd9e2c7e96ae6dca8a07c1fc5e7165ea9c7a89e78ecb75959bc9a8e769d3f565aea1b5c43db7374dd1f405cc277b6d14d85f884886f9d424dd6144d9203f2
+  languageName: node
+  linkType: hard
+
 "@antfu/utils@npm:^0.7.2":
   version: 0.7.2
   resolution: "@antfu/utils@npm:0.7.2"
@@ -2215,13 +2222,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.221":
-  version: 2.2.221
-  resolution: "@iconify/json@npm:2.2.221"
+"@iconify/json@npm:^2.2.223":
+  version: 2.2.223
+  resolution: "@iconify/json@npm:2.2.223"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 49f6df14cc3063640ca738ead59ecf469df4ccab4bf422186e494ee26d50e896fbd5d4abea0292ba7048d87b9a0b0c95a5022e13ec1960f369d4ff1b3850be79
+  checksum: 0c541321772dca35d16d303563d33d38044106adf6252b300e2372018b6d2a8f651c3a2a2b707b15e9224c07b9941dcbea0a56ca746d2866f715c4943a3da212
   languageName: node
   linkType: hard
 
@@ -2711,7 +2718,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.12.2":
+"@nuxt/kit@npm:3.12.2, @nuxt/kit@npm:^3.12.2":
   version: 3.12.2
   resolution: "@nuxt/kit@npm:3.12.2"
   dependencies:
@@ -3042,15 +3049,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/color-mode@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "@nuxtjs/color-mode@npm:3.4.1"
+"@nuxtjs/color-mode@npm:^3.4.2":
+  version: 3.4.2
+  resolution: "@nuxtjs/color-mode@npm:3.4.2"
   dependencies:
-    "@nuxt/kit": ^3.11.2
+    "@nuxt/kit": ^3.12.2
     pathe: ^1.1.2
-    pkg-types: ^1.1.0
-    semver: ^7.6.0
-  checksum: 5245cb21ec437723df8fb39560c84d58757240a5546bfd8ebf5d7950bfdfb93f22ba0cc25eaba640f2a1515e022fc5875b465b86968062112c8c4e2a54e2ee65
+    pkg-types: ^1.1.1
+    semver: ^7.6.2
+  checksum: 6bfd708483674c57489f14da54d6fe606252c34e7d3b2cbdbd7aba54335909bd9d1f80be882edec99323a4559ec47b4aae45b4db31dd74f48dd3ccb196e3ea5b
   languageName: node
   linkType: hard
 
@@ -5702,9 +5709,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.221
+    "@iconify/json": ^2.2.223
     "@kevinmarrec/nuxt-pwa": ^0.17.0
-    "@nuxtjs/color-mode": ^3.4.1
+    "@nuxtjs/color-mode": ^3.4.2
     "@types/canvas-confetti": ^1.6.4
     "@vueuse/core": ^10.11.0
     buffer: ^6.0.3
@@ -5715,7 +5722,7 @@ __metadata:
     typescript: ^5.5.2
     unplugin-icons: ^0.19.0
     unplugin-icons-nuxt3: ^1.0.0
-    unplugin-vue-components: ^0.27.0
+    unplugin-vue-components: ^0.27.2
   languageName: unknown
   linkType: soft
 
@@ -7829,7 +7836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.13.0, is-core-module@npm:^2.8.1":
+"is-core-module@npm:^2.8.1":
   version: 2.13.1
   resolution: "is-core-module@npm:2.13.1"
   dependencies:
@@ -8725,6 +8732,15 @@ __metadata:
   dependencies:
     brace-expansion: ^2.0.1
   checksum: cf717f597ec3eed7dabc33153482a2e8d49f4fd3c26e58fd9c71a94c5029a0838728841b93f46bf1263b65a8010e2ee800d0dc9b004ab8ba8b6d1ec07cc115b5
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^9.0.5":
+  version: 9.0.5
+  resolution: "minimatch@npm:9.0.5"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: 2c035575eda1e50623c731ec6c14f65a85296268f749b9337005210bb2b34e2705f8ef1a358b188f69892286ab99dc42c8fb98a57bde55c8d81b3023c19cea28
   languageName: node
   linkType: hard
 
@@ -10095,17 +10111,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkg-types@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "pkg-types@npm:1.1.0"
-  dependencies:
-    confbox: ^0.1.7
-    mlly: ^1.6.1
-    pathe: ^1.1.2
-  checksum: 9cd3684e308c622db79efc8edc9291662e01cb42ed624ea2fa5400fb6eab94679b4e5b28808e9b763298a023c2381fd72a363a1c84a9073c96609af4c5c59f8f
-  languageName: node
-  linkType: hard
-
 "pkg-types@npm:^1.1.1":
   version: 1.1.1
   resolution: "pkg-types@npm:1.1.1"
@@ -10826,19 +10831,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.22.8":
-  version: 1.22.8
-  resolution: "resolve@npm:1.22.8"
-  dependencies:
-    is-core-module: ^2.13.0
-    path-parse: ^1.0.7
-    supports-preserve-symlinks-flag: ^1.0.0
-  bin:
-    resolve: bin/resolve
-  checksum: f8a26958aa572c9b064562750b52131a37c29d072478ea32e129063e2da7f83e31f7f11e7087a18225a8561cfe8d2f0df9dbea7c9d331a897571c0a2527dbb4c
-  languageName: node
-  linkType: hard
-
 "resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
   resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
@@ -10849,19 +10841,6 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@^1.22.8#~builtin<compat/resolve>":
-  version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
-  dependencies:
-    is-core-module: ^2.13.0
-    path-parse: ^1.0.7
-    supports-preserve-symlinks-flag: ^1.0.0
-  bin:
-    resolve: bin/resolve
-  checksum: 5479b7d431cacd5185f8db64bfcb7286ae5e31eb299f4c4f404ad8aa6098b77599563ac4257cb2c37a42f59dfc06a1bec2bcf283bb448f319e37f0feb9a09847
   languageName: node
   linkType: hard
 
@@ -12532,19 +12511,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-components@npm:^0.27.0":
-  version: 0.27.0
-  resolution: "unplugin-vue-components@npm:0.27.0"
+"unplugin-vue-components@npm:^0.27.2":
+  version: 0.27.2
+  resolution: "unplugin-vue-components@npm:0.27.2"
   dependencies:
-    "@antfu/utils": ^0.7.7
+    "@antfu/utils": ^0.7.10
     "@rollup/pluginutils": ^5.1.0
     chokidar: ^3.6.0
-    debug: ^4.3.4
+    debug: ^4.3.5
     fast-glob: ^3.3.2
     local-pkg: ^0.5.0
     magic-string: ^0.30.10
-    minimatch: ^9.0.4
-    resolve: ^1.22.8
+    minimatch: ^9.0.5
+    mlly: ^1.7.1
     unplugin: ^1.10.1
   peerDependencies:
     "@babel/parser": ^7.15.8
@@ -12555,7 +12534,7 @@ __metadata:
       optional: true
     "@nuxt/kit":
       optional: true
-  checksum: 89baa7a5b4908d4c698fa382d36839543d50995de7f5da7bc689a65edc89950e58e8c1bfbad3e423b64f31f1643ab1298eb69b7957fcac6926daddc421d7e88c
+  checksum: 1800c3ccd216c2844bb3f34659348e3be0ffb49903be694c1480829ce9a7d063429f6c85c3337981fa28bfaebc64c69b98c51323884eb6ba7b78f1460ddc6d2b
   languageName: node
   linkType: hard
 
