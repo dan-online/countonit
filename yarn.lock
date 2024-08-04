@@ -2169,13 +2169,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.231":
-  version: 2.2.231
-  resolution: "@iconify/json@npm:2.2.231"
+"@iconify/json@npm:^2.2.233":
+  version: 2.2.233
+  resolution: "@iconify/json@npm:2.2.233"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 179e58fc9baa7e9befa956e8c9cd361cf4b2f3764783bbf236e037e6cd9dbe8af34cbe749d79464c297cf3c36887af7fccb0aadfcfeddf42fcc3b8b02db579ca
+  checksum: 21d2fefb17b8c5daec585708312e377bf36884f1fc1c24dd0c70cd94a5473b44e9e830567a108835c36e705eea7943068189322d2768153e2603f4c22c182ae6
   languageName: node
   linkType: hard
 
@@ -2200,18 +2200,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/utils@npm:^2.1.23":
-  version: 2.1.23
-  resolution: "@iconify/utils@npm:2.1.23"
+"@iconify/utils@npm:^2.1.29":
+  version: 2.1.29
+  resolution: "@iconify/utils@npm:2.1.29"
   dependencies:
     "@antfu/install-pkg": ^0.1.1
-    "@antfu/utils": ^0.7.7
+    "@antfu/utils": ^0.7.10
     "@iconify/types": ^2.0.0
-    debug: ^4.3.4
+    debug: ^4.3.5
     kolorist: ^1.8.0
     local-pkg: ^0.5.0
-    mlly: ^1.6.1
-  checksum: b6499661b32877b58836e317db59072af3b682258499f79f4904951ace4d90536eb178cfabf2ed66b5291926d62f21ed127aa1b6632f1947454aba398c113bdd
+    mlly: ^1.7.1
+  checksum: 743278a390f55da3a96cb65993a5de0e0c97c3f538c56d4579dbb1239691deec8cc7f3ed00adbd60075aa7d309765e9e722420935882c7acd126544260a5d8a7
   languageName: node
   linkType: hard
 
@@ -5304,7 +5304,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.231
+    "@iconify/json": ^2.2.233
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.4.2
     "@types/canvas-confetti": ^1.6.4
@@ -5315,7 +5315,7 @@ __metadata:
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^3.0.1
     typescript: ^5.5.4
-    unplugin-icons: ^0.19.0
+    unplugin-icons: ^0.19.1
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.27.3
   languageName: unknown
@@ -5569,6 +5569,18 @@ __metadata:
     supports-color:
       optional: true
   checksum: 7c002b51e256257f936dda09eb37167df952758c57badf6bf44bdc40b89a4bcb8e5a0a2e4c7b53f97c69e2970dd5272d33a757378a12c8f8e64ea7bf99e8e86e
+  languageName: node
+  linkType: hard
+
+"debug@npm:^4.3.6":
+  version: 4.3.6
+  resolution: "debug@npm:4.3.6"
+  dependencies:
+    ms: 2.1.2
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 1630b748dea3c581295e02137a9f5cbe2c1d85fea35c1e6597a65ca2b16a6fce68cec61b299d480787ef310ba927dc8c92d3061faba0ad06c6a724672f66be7f
   languageName: node
   linkType: hard
 
@@ -11617,17 +11629,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^0.19.0":
-  version: 0.19.0
-  resolution: "unplugin-icons@npm:0.19.0"
+"unplugin-icons@npm:^0.19.1":
+  version: 0.19.1
+  resolution: "unplugin-icons@npm:0.19.1"
   dependencies:
     "@antfu/install-pkg": ^0.3.3
-    "@antfu/utils": ^0.7.7
-    "@iconify/utils": ^2.1.23
-    debug: ^4.3.4
+    "@antfu/utils": ^0.7.10
+    "@iconify/utils": ^2.1.29
+    debug: ^4.3.6
     kolorist: ^1.8.0
     local-pkg: ^0.5.0
-    unplugin: ^1.10.1
+    unplugin: ^1.12.0
   peerDependencies:
     "@svgr/core": ">=7.0.0"
     "@svgx/core": ^1.0.1
@@ -11645,7 +11657,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: afb6a5956f85b477cf665d639fe627ede56b217d18d4e6a48ef2e0f15b4b681dde6dce056120b922c0250d4ba5ce696cc5d80e9f2d812ce582d16f503cb37243
+  checksum: bb3eec9d1b581745ebb316d30e6d48524512e205ac9cf5a3582e68c7056251a49884fc05b0e4c570a67e55021b9feb381cd98a0421f1f9998570524d7bf5d57a
   languageName: node
   linkType: hard
 
@@ -11783,6 +11795,18 @@ __metadata:
     webpack-sources: ^3.2.3
     webpack-virtual-modules: ^0.6.1
   checksum: b99ed2d0078fa49e81f5280e9cce58ce6ab2bd36700b4b5e02cafced96ef213ca1c6ed86cf95ef47ae3eda93cb4f79903927ec4f2068da302bd815f7c579aebc
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^1.12.0":
+  version: 1.12.0
+  resolution: "unplugin@npm:1.12.0"
+  dependencies:
+    acorn: ^8.12.1
+    chokidar: ^3.6.0
+    webpack-sources: ^3.2.3
+    webpack-virtual-modules: ^0.6.2
+  checksum: 37de3409f1ee59f6a50bac832e1b42235beb4351b3a84fbd41e72bd13540c0bc99b7001b74cb0dca8781db7a15ca80b4623c375b153144c75f0b5224778c12cd
   languageName: node
   linkType: hard
 
@@ -12392,6 +12416,13 @@ __metadata:
   version: 0.6.1
   resolution: "webpack-virtual-modules@npm:0.6.1"
   checksum: 0cd993d7b00af0ed89eee96ed6dcb2307fa8dc38e37f34e78690088314976aa79a31cf146553c5e414cdc87222878c5e4979abeb0b00bf6dc9c6f018604a1310
+  languageName: node
+  linkType: hard
+
+"webpack-virtual-modules@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "webpack-virtual-modules@npm:0.6.2"
+  checksum: 7e8e1d63f35864c815420cc2f27da8561a1e028255040698a352717de0ba46d3b3faf16f06c1a1965217054c4c2894eb9af53a85451870e919b5707ce9c5822d
   languageName: node
   linkType: hard
 
