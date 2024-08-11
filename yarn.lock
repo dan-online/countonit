@@ -2169,13 +2169,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.233":
-  version: 2.2.233
-  resolution: "@iconify/json@npm:2.2.233"
+"@iconify/json@npm:^2.2.235":
+  version: 2.2.235
+  resolution: "@iconify/json@npm:2.2.235"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 21d2fefb17b8c5daec585708312e377bf36884f1fc1c24dd0c70cd94a5473b44e9e830567a108835c36e705eea7943068189322d2768153e2603f4c22c182ae6
+  checksum: 1eb0a3b3c9be084722a385ca9327cc94d6fc2f7aedf6ab9de53668ea538b67c94da70e79d03ec04adb4d97625a35ed8d14a6c34c9b57791daeea15c3ab89a2b3
   languageName: node
   linkType: hard
 
@@ -4111,31 +4111,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^10.11.0":
-  version: 10.11.0
-  resolution: "@vueuse/core@npm:10.11.0"
+"@vueuse/core@npm:^10.11.1":
+  version: 10.11.1
+  resolution: "@vueuse/core@npm:10.11.1"
   dependencies:
     "@types/web-bluetooth": ^0.0.20
-    "@vueuse/metadata": 10.11.0
-    "@vueuse/shared": 10.11.0
+    "@vueuse/metadata": 10.11.1
+    "@vueuse/shared": 10.11.1
     vue-demi: ">=0.14.8"
-  checksum: 51f9b06ee852eb8df2652de3c06db6c89216f17e8c8299996090e48b239411748edc6061d701eb349e6094c29cb1d99dbc011b988d4433a1c2d17fb36c28b1db
+  checksum: b1029259419e6556b988570d77d5d8fdbea3a8cd90d5fdb84c2a117b47aa02f8d8d67129f223c633a9f82314581fa849164aaee34cd9d8fc644c35c2883bd877
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:10.11.0":
-  version: 10.11.0
-  resolution: "@vueuse/metadata@npm:10.11.0"
-  checksum: 11591402e150928b22866f9ee4f9bae85918d35467d3df1d921200596a132fa5d937d410fc4490ec893a8ce6582e06eff6a483f4b24d403a46c521037894adea
+"@vueuse/metadata@npm:10.11.1":
+  version: 10.11.1
+  resolution: "@vueuse/metadata@npm:10.11.1"
+  checksum: bca5dd08c6ce80233bfde586270229bba44b0e80b22e512df1fc3d98bbd36f0ada6fbb5e6a86db300c69e4ea2cada30d59c2f77cd642f7dd721aef1d7d867954
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:10.11.0":
-  version: 10.11.0
-  resolution: "@vueuse/shared@npm:10.11.0"
+"@vueuse/shared@npm:10.11.1":
+  version: 10.11.1
+  resolution: "@vueuse/shared@npm:10.11.1"
   dependencies:
     vue-demi: ">=0.14.8"
-  checksum: 25257b8d1b9fb5726d2bee0d1054ba33cce2b01263785ce7ecd01ee3102f2f0af52d486e121eaa9536e1e44508d46279bd452cec3f537367b5e6629de6c8b7b2
+  checksum: c8553126ba2a260fee6bc1798c67f6d90295021bb25c72218c87e169f7d7374bac0777a9f64670f4126f5c7e9c2ec603286ed1810cb8c7961f4b44e4cd4d6f4f
   languageName: node
   linkType: hard
 
@@ -5304,18 +5304,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.233
+    "@iconify/json": ^2.2.235
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.4.2
     "@types/canvas-confetti": ^1.6.4
-    "@vueuse/core": ^10.11.0
+    "@vueuse/core": ^10.11.1
     buffer: ^6.0.3
     canvas-confetti: ^1.9.3
     nuxt: ^3.12.4
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^3.0.1
     typescript: ^5.5.4
-    unplugin-icons: ^0.19.1
+    unplugin-icons: ^0.19.2
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.27.3
   languageName: unknown
@@ -11629,9 +11629,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^0.19.1":
-  version: 0.19.1
-  resolution: "unplugin-icons@npm:0.19.1"
+"unplugin-icons@npm:^0.19.2":
+  version: 0.19.2
+  resolution: "unplugin-icons@npm:0.19.2"
   dependencies:
     "@antfu/install-pkg": ^0.3.3
     "@antfu/utils": ^0.7.10
@@ -11657,7 +11657,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: bb3eec9d1b581745ebb316d30e6d48524512e205ac9cf5a3582e68c7056251a49884fc05b0e4c570a67e55021b9feb381cd98a0421f1f9998570524d7bf5d57a
+  checksum: e07d9322f849cb0df29402e34d125dbd69ed20881d48925a3648e1e711d3d9e4a08304033d221d23b7d49caa358a61258da3c6e17ed82f3e1f01aa24994a3c5b
   languageName: node
   linkType: hard
 
