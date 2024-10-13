@@ -2235,13 +2235,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.256":
-  version: 2.2.256
-  resolution: "@iconify/json@npm:2.2.256"
+"@iconify/json@npm:^2.2.259":
+  version: 2.2.259
+  resolution: "@iconify/json@npm:2.2.259"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 8e02689945a32f7ee5379cf8d98064f1c37ca8b6c312fd8b84046f67654d09f894d7712c82332f3cc9aa5f9aaf1646b74f3488e79747e9436f936f7fee378993
+  checksum: c233238104d681ebd6b6fe37dbb5014dabd5a869c2e07cccf29a432680ec01aa44ce47daa0b8f3cf98da198749adcb807badcb5e104ca4e0c84eab6c6b93fe27
   languageName: node
   linkType: hard
 
@@ -5376,7 +5376,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.256
+    "@iconify/json": ^2.2.259
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.5.1
     "@types/canvas-confetti": ^1.6.4
@@ -5386,7 +5386,7 @@ __metadata:
     nuxt: ^3.13.2
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^3.0.1
-    typescript: ^5.6.2
+    typescript: ^5.6.3
     unplugin-icons: ^0.19.3
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.27.4
@@ -11425,23 +11425,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.6.2":
-  version: 5.6.2
-  resolution: "typescript@npm:5.6.2"
+"typescript@npm:^5.6.3":
+  version: 5.6.3
+  resolution: "typescript@npm:5.6.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 48777e1dabd9044519f56cd012b0296e3b72bafe12b7e8e34222751d45c67e0eba5387ecdaa6c14a53871a29361127798df6dc8d1d35643a0a47cb0b1c65a33a
+  checksum: ba302f8822777ebefb28b554105f3e074466b671e7444ec6b75dadc008a62f46f373d9e57ceced1c433756d06c8b7dc569a7eefdf3a9573122a49205ff99021a
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.6.2#~builtin<compat/typescript>":
-  version: 5.6.2
-  resolution: "typescript@patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=7ad353"
+"typescript@patch:typescript@^5.6.3#~builtin<compat/typescript>":
+  version: 5.6.3
+  resolution: "typescript@patch:typescript@npm%3A5.6.3#~builtin<compat/typescript>::version=5.6.3&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c084ee1ab865f108c787e6233a5f63c126c482c0c8e87ec998ac5288a2ad54b603e1ea8b8b272355823b833eb31b9fabb99e8c6152283e1cb47e3a76bd6faf6c
+  checksum: ade87bce2363ee963eed0e4ca8a312ea02c81873ebd53609bc3f6dc0a57f6e61ad7e3fb8cbb7f7ab8b5081cbee801b023f7c4823ee70b1c447eae050e6c7622b
   languageName: node
   linkType: hard
 
