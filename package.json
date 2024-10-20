@@ -8,7 +8,7 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.259",
+    "@iconify/json": "^2.2.261",
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
     "@nuxtjs/color-mode": "^3.5.1",
     "@types/canvas-confetti": "^1.6.4",
