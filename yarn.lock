@@ -4116,31 +4116,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^11.3.0":
-  version: 11.3.0
-  resolution: "@vueuse/core@npm:11.3.0"
+"@vueuse/core@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "@vueuse/core@npm:12.0.0"
   dependencies:
     "@types/web-bluetooth": ^0.0.20
-    "@vueuse/metadata": 11.3.0
-    "@vueuse/shared": 11.3.0
-    vue-demi: ">=0.14.10"
-  checksum: 0a3a1a3e0ea0db47019e9e219442a5689f0dca60b006641decf55c3b6bf9223a1fa53cf83919b03cf256c9c04ea14ac5077c50bbf26d07e874c6e54d362a200a
+    "@vueuse/metadata": 12.0.0
+    "@vueuse/shared": 12.0.0
+    vue: ^3.5.13
+  checksum: c0d82858f81d8cbbd221bb643d3dd9402e9a044d2fdc060974855dc0fc1df857a2214c4334c3134ee1df4784b77b5b91b3df308858d6d0848e6df7ac2ab8155a
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:11.3.0":
-  version: 11.3.0
-  resolution: "@vueuse/metadata@npm:11.3.0"
-  checksum: 871040aea1c35e7a6b569a7511b39b483edcb073085492300868a03436490dde0387d89fa599eec6d371ce6fb0003bc7fa054b3b73e3547fc1c88b742670f5a6
+"@vueuse/metadata@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@vueuse/metadata@npm:12.0.0"
+  checksum: fd6242fce61147a595aba3622542fc18680f735bbf4b1f37a08185d95e35347203604f244099849bc26678d88b4d71ce4e99dbb6b0555613ef450b1244a4bea0
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:11.3.0":
-  version: 11.3.0
-  resolution: "@vueuse/shared@npm:11.3.0"
+"@vueuse/shared@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@vueuse/shared@npm:12.0.0"
   dependencies:
-    vue-demi: ">=0.14.10"
-  checksum: 3f39044ec57c2ae350340f6633cbdb1c52b96f0d3376702fb539cc1ef0c76f0a422328b22955c3c8831c36847fc7fd4a69217b5050e527060e9a7f19b7887db7
+    vue: ^3.5.13
+  checksum: 1c150c6936deaba32d87de8097bbcf4fe65b7796828e2f198ae5eeb3af4e7d6c2fe1c67757211cc1e2442c2228a9cfe6bafdfd478dd3d5202c6cff5362047b54
   languageName: node
   linkType: hard
 
@@ -5354,7 +5354,7 @@ __metadata:
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.5.2
     "@types/canvas-confetti": ^1.6.4
-    "@vueuse/core": ^11.3.0
+    "@vueuse/core": ^12.0.0
     buffer: ^6.0.3
     canvas-confetti: ^1.9.3
     nuxt: ^3.14.1592
@@ -12724,22 +12724,6 @@ __metadata:
   dependencies:
     ufo: ^1.5.4
   checksum: 07822475d57c96a91aa7e61f60e5e1dc04a285f3132f4e133765824522f35b5c1a003429fbdd92c8c386f36f1eabccf711171f5941c74dad27e1b656c2ce7094
-  languageName: node
-  linkType: hard
-
-"vue-demi@npm:>=0.14.10":
-  version: 0.14.10
-  resolution: "vue-demi@npm:0.14.10"
-  peerDependencies:
-    "@vue/composition-api": ^1.0.0-rc.1
-    vue: ^3.0.0-0 || ^2.6.0
-  peerDependenciesMeta:
-    "@vue/composition-api":
-      optional: true
-  bin:
-    vue-demi-fix: bin/vue-demi-fix.js
-    vue-demi-switch: bin/vue-demi-switch.js
-  checksum: 9b4106f99be3b0c1dd4a6dc5725f5e8f79c6b98d1eeb849bf2c54416cd77f4aa344960b202768865245cfa82d57f49a9d96f67f5d8e256604b9dac1c5df9a8d6
   languageName: node
   linkType: hard
 
