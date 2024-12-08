@@ -2141,13 +2141,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.278":
-  version: 2.2.278
-  resolution: "@iconify/json@npm:2.2.278"
+"@iconify/json@npm:^2.2.280":
+  version: 2.2.280
+  resolution: "@iconify/json@npm:2.2.280"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: a3a89fdbcf84da23cacf047275d1901a166d31f5f57de4b45f23ca5bc76f35f874ec4f658923fb0d1664bb54cc789754f0b87063ad45c610c7f854bcd795af6a
+  checksum: 78cf35cebcb90e1cf169c43e9be565d456c0fb744dd4478f80e2231eeea4bdf446cbdbbbd62674f2c63ba72883b486759ce700d1ce8c9d4240dad1be5049b99f
   languageName: node
   linkType: hard
 
@@ -5350,7 +5350,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.278
+    "@iconify/json": ^2.2.280
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.5.2
     "@types/canvas-confetti": ^1.6.4
@@ -5361,7 +5361,7 @@ __metadata:
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^3.0.1
     typescript: ^5.7.2
-    unplugin-icons: ^0.20.2
+    unplugin-icons: ^0.21.0
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^0.27.5
   languageName: unknown
@@ -11985,9 +11985,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "unplugin-icons@npm:0.20.2"
+"unplugin-icons@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "unplugin-icons@npm:0.21.0"
   dependencies:
     "@antfu/install-pkg": ^0.5.0
     "@antfu/utils": ^0.7.10
@@ -12016,7 +12016,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: ad599f1675e282cb997579574c0828c445daac200dc486eb1bf58f219802c9474f10685e4ffcc2755e7ce92e51871de9b4975886f25851888b09a627ee6c8956
+  checksum: 13bb84d2bfdb6e40244ba65e8b2c8acfda18241efc248aa49619bf3d6d71f7f2d35819301981322398215175a14db99fd941a371a3bcf1e8c42ca06cdeb84b19
   languageName: node
   linkType: hard
 
