@@ -8,11 +8,11 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.290",
+    "@iconify/json": "^2.2.291",
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
     "@nuxtjs/color-mode": "^3.5.2",
     "@types/canvas-confetti": "^1.9.0",
-    "@vueuse/core": "^12.2.0",
+    "@vueuse/core": "^12.3.0",
     "buffer": "^6.0.3",
     "canvas-confetti": "^1.9.3",
     "nuxt": "^3.15.0",
