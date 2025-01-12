@@ -5372,7 +5372,7 @@ __metadata:
     typescript: ^5.7.3
     unplugin-icons: ^0.22.0
     unplugin-icons-nuxt3: ^1.0.0
-    unplugin-vue-components: ^0.28.0
+    unplugin-vue-components: ^28.0.0
   languageName: unknown
   linkType: soft
 
@@ -6559,6 +6559,19 @@ __metadata:
     merge2: ^1.3.0
     micromatch: ^4.0.4
   checksum: 900e4979f4dbc3313840078419245621259f349950411ca2fa445a2f9a1a6d98c3b5e7e0660c5ccd563aa61abe133a21765c6c0dec8e57da1ba71d8000b05ec1
+  languageName: node
+  linkType: hard
+
+"fast-glob@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "fast-glob@npm:3.3.3"
+  dependencies:
+    "@nodelib/fs.stat": ^2.0.2
+    "@nodelib/fs.walk": ^1.2.3
+    glob-parent: ^5.1.2
+    merge2: ^1.3.0
+    micromatch: ^4.0.8
+  checksum: 0704d7b85c0305fd2cef37777337dfa26230fdd072dce9fb5c82a4b03156f3ffb8ed3e636033e65d45d2a5805a4e475825369a27404c0307f2db0c8eb3366fbd
   languageName: node
   linkType: hard
 
@@ -8216,7 +8229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.14, magic-string@npm:^0.30.15, magic-string@npm:^0.30.17":
+"magic-string@npm:^0.30.14, magic-string@npm:^0.30.17":
   version: 0.30.17
   resolution: "magic-string@npm:0.30.17"
   dependencies:
@@ -12061,20 +12074,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-components@npm:^0.28.0":
-  version: 0.28.0
-  resolution: "unplugin-vue-components@npm:0.28.0"
+"unplugin-vue-components@npm:^28.0.0":
+  version: 28.0.0
+  resolution: "unplugin-vue-components@npm:28.0.0"
   dependencies:
     "@antfu/utils": ^0.7.10
     "@rollup/pluginutils": ^5.1.4
     chokidar: ^3.6.0
     debug: ^4.4.0
-    fast-glob: ^3.3.2
+    fast-glob: ^3.3.3
     local-pkg: ^0.5.1
-    magic-string: ^0.30.15
+    magic-string: ^0.30.17
     minimatch: ^9.0.5
     mlly: ^1.7.3
-    unplugin: ^2.1.0
+    unplugin: ^2.1.2
   peerDependencies:
     "@babel/parser": ^7.15.8
     "@nuxt/kit": ^3.2.2
@@ -12084,7 +12097,7 @@ __metadata:
       optional: true
     "@nuxt/kit":
       optional: true
-  checksum: 29c40d3c4d91df014d900532300ce164034651bf1e777de82ad384f833749e1429201e8a96d63041c8ba9315d894def2dac60c4c446fc07ab4f1af46dfa8b1cc
+  checksum: bee39d970cc219d24dc4444eeca028b7953ba18ce71a64e3c9fbab5c901f800586144ec0fcfce58bd1a3bc46117b10b36458dcd1fed183df05975c2f5c0540ae
   languageName: node
   linkType: hard
 
