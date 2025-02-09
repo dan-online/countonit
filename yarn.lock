@@ -2032,13 +2032,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.302":
-  version: 2.2.302
-  resolution: "@iconify/json@npm:2.2.302"
+"@iconify/json@npm:^2.2.304":
+  version: 2.2.304
+  resolution: "@iconify/json@npm:2.2.304"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 003a1d0702263d74f76c59e30da1414860b25fdd4f2c5094ea135e387abec7aeca1555628460ae34684f8e5fe9bb37bb6965ea40f790318f4af54745a426d5ef
+  checksum: 45a86331fb9e27b9dca5865b44ce474372048a0c8ceafb7418159cbabed9bf02d16780c7db9bdc410bdc5bd44b7a84928fa2fd39aebad7218ff072827fed5254
   languageName: node
   linkType: hard
 
@@ -5211,7 +5211,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.302
+    "@iconify/json": ^2.2.304
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.5.2
     "@types/canvas-confetti": ^1.9.0
