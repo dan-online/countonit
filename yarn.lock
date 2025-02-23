@@ -25,23 +25,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/install-pkg@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "@antfu/install-pkg@npm:0.4.1"
+"@antfu/install-pkg@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@antfu/install-pkg@npm:1.0.0"
   dependencies:
-    package-manager-detector: ^0.2.0
-    tinyexec: ^0.3.0
-  checksum: 3ffd59fa5a21dcb4951a037f5c91dfbfc152adfef9e7ba231a968f108aa28c1cd22213c437a8d34f2bfea8c2b9a6df20447eb04be15b534a8e9e21a9dcf203c0
-  languageName: node
-  linkType: hard
-
-"@antfu/install-pkg@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@antfu/install-pkg@npm:0.5.0"
-  dependencies:
-    package-manager-detector: ^0.2.5
-    tinyexec: ^0.3.1
-  checksum: 93b38f8a18f5a06d3b0ae3685cf82b53791decfb5147dfc1e9e8b357b109fcce90677cf6fadc00a36e4f0d6ea320c8ea1e52c3e7ba7da55909583ad0f827ffb5
+    package-manager-detector: ^0.2.8
+    tinyexec: ^0.3.2
+  checksum: 0fdae280f5185d7225e41ed8f19aa14f96716043366d7aeec5e6bea4f995a826bb250dd01d6e2d9886bbd2c023435ad624096bad9e4c8d6cc3d025b6b9ca32a9
   languageName: node
   linkType: hard
 
@@ -70,6 +60,13 @@ __metadata:
   version: 0.7.2
   resolution: "@antfu/utils@npm:0.7.2"
   checksum: ada98dde0a06bc10129ad7bc9d0007c1cf7e36eeb9e8ca93ea5173bc1e1d351afee8511c9e8e182b3105b787ce0ce813afc4ab283b511374f1e56a085f60a2c6
+  languageName: node
+  linkType: hard
+
+"@antfu/utils@npm:^8.1.0":
+  version: 8.1.1
+  resolution: "@antfu/utils@npm:8.1.1"
+  checksum: 42ded916c4ff7f45a2f462eb020c801d24f2eee830cba4dbeef5a8bb774b6af22238f0c3efdbcb068296eb948aa13bdc32169186e261c99aae13c12360c02580
   languageName: node
   linkType: hard
 
@@ -2032,13 +2029,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.307":
-  version: 2.2.307
-  resolution: "@iconify/json@npm:2.2.307"
+"@iconify/json@npm:^2.2.309":
+  version: 2.2.309
+  resolution: "@iconify/json@npm:2.2.309"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 9be9ba5c8a97ae31b68056dfedcfcea845666701c23e245fdae6cc36685ef7a4492395fb5c44895e66f6c3624e0009901ee904d33397fcc0db15c877d0fe9339
+  checksum: 0a45052ca0e19fcc3f0511667611ec9d12e3de073247328d00dc3b3ddcc1fec888e1b99d9dc2ea7de58f725d7060a2bba2b08446cab1f7df28d03f3b74a47167
   languageName: node
   linkType: hard
 
@@ -2063,19 +2060,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/utils@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "@iconify/utils@npm:2.2.1"
+"@iconify/utils@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@iconify/utils@npm:2.3.0"
   dependencies:
-    "@antfu/install-pkg": ^0.4.1
-    "@antfu/utils": ^0.7.10
+    "@antfu/install-pkg": ^1.0.0
+    "@antfu/utils": ^8.1.0
     "@iconify/types": ^2.0.0
     debug: ^4.4.0
-    globals: ^15.13.0
+    globals: ^15.14.0
     kolorist: ^1.8.0
-    local-pkg: ^0.5.1
-    mlly: ^1.7.3
-  checksum: 7d1566eb30b5eaefe732a293dc5f4c80f5f179e4f0db26a316d5b8cbda570442fded127914a4c916cd296ebf39033c78369a46584a44f20aabb997525ff5c009
+    local-pkg: ^1.0.0
+    mlly: ^1.7.4
+  checksum: b723397c09bdfd116c907db714fd1cd65119283e06d008502d9389593b14520c7084474b2e0b0bae2d46eabc3be2146ab02fba81c9ad199a33b6f1394e23890c
   languageName: node
   linkType: hard
 
@@ -5211,7 +5208,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.307
+    "@iconify/json": ^2.2.309
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.5.2
     "@types/canvas-confetti": ^1.9.0
@@ -5222,9 +5219,9 @@ __metadata:
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^3.0.1
     typescript: ^5.7.3
-    unplugin-icons: ^22.0.0
+    unplugin-icons: ^22.1.0
     unplugin-icons-nuxt3: ^1.0.0
-    unplugin-vue-components: ^28.1.0
+    unplugin-vue-components: ^28.4.0
   languageName: unknown
   linkType: soft
 
@@ -6829,10 +6826,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^15.13.0":
-  version: 15.14.0
-  resolution: "globals@npm:15.14.0"
-  checksum: fa993433a01bf4a118904fbafbcff34db487fce83f73da75fb4a8653afc6dcd72905e6208c49bab307ff0980928273d0ecd1cfc67e1a4782dabfbd92c234ab68
+"globals@npm:^15.14.0":
+  version: 15.15.0
+  resolution: "globals@npm:15.15.0"
+  checksum: a2a92199a112db00562a2f85eeef2a7e3943e171f7f7d9b17dfa9231e35fd612588f3c199d1509ab1757273467e413b08c80424cf6e399e96acdaf93deb3ee88
   languageName: node
   linkType: hard
 
@@ -9302,20 +9299,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-manager-detector@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "package-manager-detector@npm:0.2.0"
-  checksum: 3ba12d366aef0045d8341670eea71a3c9ef4efb00a411f45bf970bd526dbfc41b6baac4fb18a2585fe2d5f93dbb7245fbce4b4fcb89baa175ecf221c05f47db1
-  languageName: node
-  linkType: hard
-
-"package-manager-detector@npm:^0.2.5":
-  version: 0.2.6
-  resolution: "package-manager-detector@npm:0.2.6"
-  checksum: cc840c4471c2c6e095a50021b9553d69455f41cf822e30f236f6ac71222ce3e509487ecb02a95321e20deb51be7aafca1bbe7b269b67b6444bc0d6124d543bc1
-  languageName: node
-  linkType: hard
-
 "package-manager-detector@npm:^0.2.8":
   version: 0.2.8
   resolution: "package-manager-detector@npm:0.2.8"
@@ -11401,13 +11384,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyexec@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "tinyexec@npm:0.3.0"
-  checksum: e55473d249b8fc94bc5b1461d8e368dfe0ba23dcfca4f9069fe25418b17772e50110a1d33cd7ac8ff26456e5b609e0528cce7660e35246fad9b00bd094f3f444
-  languageName: node
-  linkType: hard
-
 "tinyexec@npm:^0.3.1":
   version: 0.3.1
   resolution: "tinyexec@npm:0.3.1"
@@ -11947,17 +11923,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-icons@npm:^22.0.0":
-  version: 22.0.0
-  resolution: "unplugin-icons@npm:22.0.0"
+"unplugin-icons@npm:^22.1.0":
+  version: 22.1.0
+  resolution: "unplugin-icons@npm:22.1.0"
   dependencies:
-    "@antfu/install-pkg": ^0.5.0
-    "@antfu/utils": ^0.7.10
-    "@iconify/utils": ^2.2.1
+    "@antfu/install-pkg": ^1.0.0
+    "@iconify/utils": ^2.3.0
     debug: ^4.4.0
-    kolorist: ^1.8.0
-    local-pkg: ^0.5.1
-    unplugin: ^2.1.0
+    local-pkg: ^1.0.0
+    unplugin: ^2.2.0
   peerDependencies:
     "@svgr/core": ">=7.0.0"
     "@svgx/core": ^1.0.1
@@ -11978,7 +11952,7 @@ __metadata:
       optional: true
     vue-template-es2015-compiler:
       optional: true
-  checksum: d9cf764613fc9cdbf0c2747b309e47f83971223bf104783f1978acaeb0c8b8d73e7c9e98c5895e12aa42c54d840f73cc47149dac774edaddfd247e52d6d7860c
+  checksum: 2d680975164c00e78f1a8bf7cf83c40c216e2e06b2b646e4f065ab15c5defd7218babd5abe5775a0d16792a667876d0e3c76a323e216326b56eed56e76ebad06
   languageName: node
   linkType: hard
 
@@ -11992,9 +11966,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-components@npm:^28.1.0":
-  version: 28.1.0
-  resolution: "unplugin-vue-components@npm:28.1.0"
+"unplugin-vue-components@npm:^28.4.0":
+  version: 28.4.0
+  resolution: "unplugin-vue-components@npm:28.4.0"
   dependencies:
     chokidar: ^3.6.0
     debug: ^4.4.0
@@ -12013,7 +11987,7 @@ __metadata:
       optional: true
     "@nuxt/kit":
       optional: true
-  checksum: d91479245ab242349f372ae5f4bf06d71627086184b8b2f6d4672ff8798b7ddd9615f8652a47d3affc918919754e2e64efd591360b1f0098f51bdd2f9827e970
+  checksum: eaa3016a1481cdfaaf32f1fa849d71a5e21339839be266821e7c1b4a822470da53bdee81327f8568a0ffc3c5d10efa9dc0488595a80b2ee0595c9c05cbc7e89e
   languageName: node
   linkType: hard
 
