@@ -8,7 +8,7 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.307",
+    "@iconify/json": "^2.2.309",
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
     "@nuxtjs/color-mode": "^3.5.2",
     "@types/canvas-confetti": "^1.9.0",
@@ -19,8 +19,8 @@
     "nuxt-bunny-fonts": "^1.1.2",
     "nuxt-windicss": "^3.0.1",
     "typescript": "^5.7.3",
-    "unplugin-icons": "^22.0.0",
+    "unplugin-icons": "^22.1.0",
     "unplugin-icons-nuxt3": "^1.0.0",
-    "unplugin-vue-components": "^28.1.0"
+    "unplugin-vue-components": "^28.4.0"
   }
 }
