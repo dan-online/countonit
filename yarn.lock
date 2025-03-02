@@ -2029,13 +2029,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/json@npm:^2.2.309":
-  version: 2.2.309
-  resolution: "@iconify/json@npm:2.2.309"
+"@iconify/json@npm:^2.2.311":
+  version: 2.2.311
+  resolution: "@iconify/json@npm:2.2.311"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.2
-  checksum: 0a45052ca0e19fcc3f0511667611ec9d12e3de073247328d00dc3b3ddcc1fec888e1b99d9dc2ea7de58f725d7060a2bba2b08446cab1f7df28d03f3b74a47167
+  checksum: 9d3236ad3e3cae9ef5d29e424bb655c3bd9cc4b3d913cd28a1b85b47d394758c5309b925b06562f1b485d58b8a7d53dcf68f31d9b296001f710a441d10146cc1
   languageName: node
   linkType: hard
 
@@ -5208,7 +5208,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "countonit@workspace:."
   dependencies:
-    "@iconify/json": ^2.2.309
+    "@iconify/json": ^2.2.311
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.5.2
     "@types/canvas-confetti": ^1.9.0
@@ -5218,10 +5218,10 @@ __metadata:
     nuxt: ^3.15.4
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^3.0.1
-    typescript: ^5.7.3
+    typescript: ^5.8.2
     unplugin-icons: ^22.1.0
     unplugin-icons-nuxt3: ^1.0.0
-    unplugin-vue-components: ^28.4.0
+    unplugin-vue-components: ^28.4.1
   languageName: unknown
   linkType: soft
 
@@ -6378,6 +6378,18 @@ __metadata:
     picomatch:
       optional: true
   checksum: 517ad31c495f1c0778238eef574a7818788efaaf2ce1969ffa18c70793e2951a9763dfa2e6720b8fcef615e602a3cbb47f9b8aea9da0b02147579ab36043f22f
+  languageName: node
+  linkType: hard
+
+"fdir@npm:^6.4.3":
+  version: 6.4.3
+  resolution: "fdir@npm:6.4.3"
+  peerDependencies:
+    picomatch: ^3 || ^4
+  peerDependenciesMeta:
+    picomatch:
+      optional: true
+  checksum: fa53e13c63e8c14add5b70fd47e28267dd5481ebbba4b47720ec25aae7d10a800ef0f2e33de350faaf63c10b3d7b64138925718832220d593f75e724846c736d
   languageName: node
   linkType: hard
 
@@ -11408,6 +11420,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tinyglobby@npm:^0.2.12":
+  version: 0.2.12
+  resolution: "tinyglobby@npm:0.2.12"
+  dependencies:
+    fdir: ^6.4.3
+    picomatch: ^4.0.2
+  checksum: ef9357fa1b2b661afdccd315cb4995f5f36bce948faaace68aae85fe57bdd8f837883045c88efc50d3186bac6586e4ae2f31026b9a3aac061b884217e6092e23
+  languageName: node
+  linkType: hard
+
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0
   resolution: "to-fast-properties@npm:2.0.0"
@@ -11482,23 +11504,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.7.3":
-  version: 5.7.3
-  resolution: "typescript@npm:5.7.3"
+"typescript@npm:^5.8.2":
+  version: 5.8.2
+  resolution: "typescript@npm:5.8.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6c38b1e989918e576f0307e6ee013522ea480dfce5f3ca85c9b2d8adb1edeffd37f4f30cd68de0c38a44563d12ba922bdb7e36aa2dac9c51de5d561e6e9a2e9c
+  checksum: 7f9e3d7ac15da6df713e439e785e51facd65d6450d5f51fab3e8d2f2e3f4eb317080d895480b8e305450cdbcb37e17383e8bf521e7395f8b556e2f2a4730ed86
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.7.3#~builtin<compat/typescript>":
-  version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#~builtin<compat/typescript>::version=5.7.3&hash=7ad353"
+"typescript@patch:typescript@^5.8.2#~builtin<compat/typescript>":
+  version: 5.8.2
+  resolution: "typescript@patch:typescript@npm%3A5.8.2#~builtin<compat/typescript>::version=5.8.2&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 633cd749d6cd7bc842c6b6245847173bba99742a60776fae3c0fbcc0d1733cd51a733995e5f4dadd8afb0e64e57d3c7dbbeae953a072ee303940eca69e22f311
+  checksum: a58d19ff9811c1764a299dd83ca20ed8020f0ab642906dafc880121b710751227201531fdc99878158205c356ac79679b0b61ac5b42eda0e28bfb180947a258d
   languageName: node
   linkType: hard
 
@@ -11966,16 +11988,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-components@npm:^28.4.0":
-  version: 28.4.0
-  resolution: "unplugin-vue-components@npm:28.4.0"
+"unplugin-vue-components@npm:^28.4.1":
+  version: 28.4.1
+  resolution: "unplugin-vue-components@npm:28.4.1"
   dependencies:
     chokidar: ^3.6.0
     debug: ^4.4.0
     local-pkg: ^1.0.0
     magic-string: ^0.30.17
     mlly: ^1.7.4
-    tinyglobby: ^0.2.10
+    tinyglobby: ^0.2.12
     unplugin: ^2.2.0
     unplugin-utils: ^0.2.4
   peerDependencies:
@@ -11987,7 +12009,7 @@ __metadata:
       optional: true
     "@nuxt/kit":
       optional: true
-  checksum: eaa3016a1481cdfaaf32f1fa849d71a5e21339839be266821e7c1b4a822470da53bdee81327f8568a0ffc3c5d10efa9dc0488595a80b2ee0595c9c05cbc7e89e
+  checksum: 9e2f3e8e0a0a32a89ff000065dcceacd99828f09760053f9f60bb303d420eba0651e0728cf020dd2ec89e670ffe884b14879dd79b2d1e644b2d7b891aea900f3
   languageName: node
   linkType: hard
 
