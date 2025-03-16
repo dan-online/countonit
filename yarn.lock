@@ -3538,31 +3538,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^12.8.2":
-  version: 12.8.2
-  resolution: "@vueuse/core@npm:12.8.2"
+"@vueuse/core@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "@vueuse/core@npm:13.0.0"
   dependencies:
     "@types/web-bluetooth": ^0.0.21
-    "@vueuse/metadata": 12.8.2
-    "@vueuse/shared": 12.8.2
-    vue: ^3.5.13
-  checksum: e8749b85c0c1a4e000f65b77e13037e0177cc0c43aa86fab0d90c1c7d9a1a9fb6b1d90461b9b599c51fce5acf201370f0cdf8dc3a5eda5acb2e982227cc2dc23
+    "@vueuse/metadata": 13.0.0
+    "@vueuse/shared": 13.0.0
+  peerDependencies:
+    vue: ^3.5.0
+  checksum: 47a3e1fa83e0c47f5ff7509f8daedf296934fa675a058df39e3c61b436fff9bda36eeb621706f49ed98171290defcd2dde13737a7cbf465f668c8b4730212ddf
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:12.8.2":
-  version: 12.8.2
-  resolution: "@vueuse/metadata@npm:12.8.2"
-  checksum: 4fae302c2eb24970fd1946a0f25c81a99a3bbd1d12a43670ef7c2cbfe921a68ef98b1511a055cae8a37f2cf1ce625b88f726572b55dd15689e5201ad7714c667
+"@vueuse/metadata@npm:13.0.0":
+  version: 13.0.0
+  resolution: "@vueuse/metadata@npm:13.0.0"
+  checksum: a9bee05b22585406f8240e81ce9beca9782a95d213fc927ef1c3f1e3372d76502b1b3746de0f839b84885b2bbf71e7a5f0db017a04b58298159ce0650faf38f0
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:12.8.2":
-  version: 12.8.2
-  resolution: "@vueuse/shared@npm:12.8.2"
-  dependencies:
-    vue: ^3.5.13
-  checksum: 41400fe8a375782e9a64f262ee7a900fd28de40767f63dad1624eff4a109eea14e88766f6fae5fe72c9f6ef84ea7600447d94ad37bec97ee34cc62560ad90dd7
+"@vueuse/shared@npm:13.0.0":
+  version: 13.0.0
+  resolution: "@vueuse/shared@npm:13.0.0"
+  peerDependencies:
+    vue: ^3.5.0
+  checksum: fb1ae82dd19278dde1b81f906bf2b2c267c8f677a907ae549260ea899cc2f0e763f6ea0e4e01ee99b9a15da758306be7697fd6b17dcf36a60af6df0769cefdf0
   languageName: node
   linkType: hard
 
@@ -4762,7 +4763,7 @@ __metadata:
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^3.5.2
     "@types/canvas-confetti": ^1.9.0
-    "@vueuse/core": ^12.8.2
+    "@vueuse/core": ^13.0.0
     buffer: ^6.0.3
     canvas-confetti: ^1.9.3
     nuxt: ^3.16.0
