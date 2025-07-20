@@ -15,7 +15,7 @@
     "@vueuse/core": "^13.0.0",
     "buffer": "^6.0.3",
     "canvas-confetti": "^1.9.3",
-    "nuxt": "^3.16.1",
+    "nuxt": "^4.0.0",
     "nuxt-bunny-fonts": "^1.1.2",
     "nuxt-windicss": "^3.0.1",
     "typescript": "^5.8.2",
