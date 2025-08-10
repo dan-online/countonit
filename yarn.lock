@@ -5570,7 +5570,7 @@ __metadata:
     typescript: ^5.8.2
     unplugin-icons: ^22.1.0
     unplugin-icons-nuxt3: ^1.0.0
-    unplugin-vue-components: ^28.4.1
+    unplugin-vue-components: ^29.0.0
   languageName: unknown
   linkType: soft
 
@@ -12879,7 +12879,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.11, tinyglobby@npm:^0.2.12":
+"tinyglobby@npm:^0.2.11":
   version: 0.2.12
   resolution: "tinyglobby@npm:0.2.12"
   dependencies:
@@ -13497,28 +13497,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-components@npm:^28.4.1":
-  version: 28.4.1
-  resolution: "unplugin-vue-components@npm:28.4.1"
+"unplugin-vue-components@npm:^29.0.0":
+  version: 29.0.0
+  resolution: "unplugin-vue-components@npm:29.0.0"
   dependencies:
     chokidar: ^3.6.0
-    debug: ^4.4.0
-    local-pkg: ^1.0.0
+    debug: ^4.4.1
+    local-pkg: ^1.1.1
     magic-string: ^0.30.17
     mlly: ^1.7.4
-    tinyglobby: ^0.2.12
-    unplugin: ^2.2.0
+    tinyglobby: ^0.2.14
+    unplugin: ^2.3.5
     unplugin-utils: ^0.2.4
   peerDependencies:
     "@babel/parser": ^7.15.8
-    "@nuxt/kit": ^3.2.2
+    "@nuxt/kit": ^3.2.2 || ^4.0.0
     vue: 2 || 3
   peerDependenciesMeta:
     "@babel/parser":
       optional: true
     "@nuxt/kit":
       optional: true
-  checksum: 9e2f3e8e0a0a32a89ff000065dcceacd99828f09760053f9f60bb303d420eba0651e0728cf020dd2ec89e670ffe884b14879dd79b2d1e644b2d7b891aea900f3
+  checksum: 2cfbc8b01d810caf282311400cfe6e935c74eb08ab7a8826daecc42d7ae8e80d08d417c910803f85039589c19fdfb78eb07fe47b6c149734617c49947128e226
   languageName: node
   linkType: hard
 
