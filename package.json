@@ -12,7 +12,7 @@
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
     "@nuxtjs/color-mode": "^3.5.2",
     "@types/canvas-confetti": "^1.9.0",
-    "@vueuse/core": "^13.0.0",
+    "@vueuse/core": "^14.0.0",
     "buffer": "^6.0.3",
     "canvas-confetti": "^1.9.3",
     "nuxt": "^4.0.0",
