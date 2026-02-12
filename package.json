@@ -8,17 +8,17 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.321",
+    "@iconify/json": "^2.2.439",
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
     "@nuxtjs/color-mode": "^4.0.0",
     "@types/canvas-confetti": "^1.9.0",
-    "@vueuse/core": "^14.0.0",
+    "@vueuse/core": "^14.2.1",
     "buffer": "^6.0.3",
-    "canvas-confetti": "^1.9.3",
-    "nuxt": "^4.0.0",
+    "canvas-confetti": "^1.9.4",
+    "nuxt": "^4.3.1",
     "nuxt-bunny-fonts": "^1.1.2",
     "nuxt-windicss": "^3.0.1",
-    "typescript": "^5.8.2",
+    "typescript": "^5.9.3",
     "unplugin-icons": "^23.0.1",
     "unplugin-icons-nuxt3": "^1.0.0",
     "unplugin-vue-components": "^31.0.0"
