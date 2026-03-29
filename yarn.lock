@@ -4343,6 +4343,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"acorn@npm:^8.16.0":
+  version: 8.16.0
+  resolution: "acorn@npm:8.16.0"
+  bin:
+    acorn: bin/acorn
+  checksum: bbfa466cd0dbd18b4460a85e9d0fc2f35db999380892403c573261beda91f23836db2aa71fd3ae65e94424ad14ff8e2b7bd37c7a2624278fd89137cd6e448c41
+  languageName: node
+  linkType: hard
+
 "acorn@npm:^8.5.0, acorn@npm:^8.6.0, acorn@npm:^8.8.0, acorn@npm:^8.8.1":
   version: 8.8.1
   resolution: "acorn@npm:8.8.1"
@@ -5565,7 +5574,7 @@ __metadata:
     typescript: ^6.0.2
     unplugin-icons: ^23.0.1
     unplugin-icons-nuxt3: ^1.0.0
-    unplugin-vue-components: ^31.0.0
+    unplugin-vue-components: ^32.0.0
   languageName: unknown
   linkType: soft
 
@@ -9585,6 +9594,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mlly@npm:^1.8.2":
+  version: 1.8.2
+  resolution: "mlly@npm:1.8.2"
+  dependencies:
+    acorn: ^8.16.0
+    pathe: ^2.0.3
+    pkg-types: ^1.3.1
+    ufo: ^1.6.3
+  checksum: b934402379921eb0bff9a67640002cde244bf2a163cef9543a39c2ded2345cf952fd83475f087fb9fd0dc2f4a4fe58ba40697bf12145f9ba68208a880bb8232a
+  languageName: node
+  linkType: hard
+
 "mocked-exports@npm:^0.1.1":
   version: 0.1.1
   resolution: "mocked-exports@npm:0.1.1"
@@ -13237,6 +13258,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ufo@npm:^1.6.3":
+  version: 1.6.3
+  resolution: "ufo@npm:1.6.3"
+  checksum: a23eff86bbbef0b9cc69c19c653c703b656c2328938576d3a60e05e246ef5a78d88b17c710afa146311c5b855950ccfee60ba8f6c8845e8d1ed6b5a9086ddad1
+  languageName: node
+  linkType: hard
+
 "ultrahtml@npm:^1.6.0":
   version: 1.6.0
   resolution: "ultrahtml@npm:1.6.0"
@@ -13584,18 +13612,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue-components@npm:^31.0.0":
-  version: 31.0.0
-  resolution: "unplugin-vue-components@npm:31.0.0"
+"unplugin-vue-components@npm:^32.0.0":
+  version: 32.0.0
+  resolution: "unplugin-vue-components@npm:32.0.0"
   dependencies:
     chokidar: ^5.0.0
     local-pkg: ^1.1.2
     magic-string: ^0.30.21
-    mlly: ^1.8.0
+    mlly: ^1.8.2
     obug: ^2.1.1
     picomatch: ^4.0.3
     tinyglobby: ^0.2.15
-    unplugin: ^2.3.11
+    unplugin: ^3.0.0
     unplugin-utils: ^0.3.1
   peerDependencies:
     "@nuxt/kit": ^3.2.2 || ^4.0.0
@@ -13603,7 +13631,7 @@ __metadata:
   peerDependenciesMeta:
     "@nuxt/kit":
       optional: true
-  checksum: d290c7670fef804e2be9e0c7aac108ba0d6e3ee0e7e50cc4c767e20341aa6861bc0befcb8e2a9e5e6fde7973fbfc2db284bd3c0d7cae66ad5c028a5210582163
+  checksum: a5317e87fdf1090fc110bb1647183c85fc5337949899284c88f7a1d6bdf0111e4377aa60d9d1ce6d8b6c2cd6c68715c8e06fda817f24c95a66ce044fb803eaa3
   languageName: node
   linkType: hard
 
@@ -13759,6 +13787,17 @@ __metadata:
     picomatch: ^4.0.3
     webpack-virtual-modules: ^0.6.2
   checksum: 9ed52ac0d154ed269b2a0844aa04b78900728db45a61bf9d78eadcef1c5a3ccb2751aba229df20972713bd8f43f2640a9c5b57a2d395b8e6ce6ba76ebf0c9ab8
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "unplugin@npm:3.0.0"
+  dependencies:
+    "@jridgewell/remapping": ^2.3.5
+    picomatch: ^4.0.3
+    webpack-virtual-modules: ^0.6.2
+  checksum: b25ad7d7f69848f5ad8094429eb50a5ecd5c038eeb04571658ad4fe1001159b7899c5a7f913af15ccd00108c47824ff9eb815dcb10b1c4e714d22084eaaa0f89
   languageName: node
   linkType: hard
 
