@@ -5562,7 +5562,7 @@ __metadata:
     nuxt: ^4.0.0
     nuxt-bunny-fonts: ^1.1.2
     nuxt-windicss: ^3.0.1
-    typescript: ^5.8.2
+    typescript: ^6.0.2
     unplugin-icons: ^23.0.1
     unplugin-icons-nuxt3: ^1.0.0
     unplugin-vue-components: ^31.0.0
@@ -13130,13 +13130,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.8.2":
-  version: 5.8.2
-  resolution: "typescript@npm:5.8.2"
+"typescript@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "typescript@npm:6.0.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 7f9e3d7ac15da6df713e439e785e51facd65d6450d5f51fab3e8d2f2e3f4eb317080d895480b8e305450cdbcb37e17383e8bf521e7395f8b556e2f2a4730ed86
+  checksum: a95632e5e4f7b9e7d9e9e9b79b4f147b45181258e7cae4c9f9f2a24176aff688d25e798cddf78cc39cb95423c8c63b36fd4ed5ac4028d37667dcc62a1e89e9e7
   languageName: node
   linkType: hard
 
@@ -13150,13 +13150,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.8.2#~builtin<compat/typescript>":
-  version: 5.8.2
-  resolution: "typescript@patch:typescript@npm%3A5.8.2#~builtin<compat/typescript>::version=5.8.2&hash=7ad353"
+"typescript@patch:typescript@^6.0.2#~builtin<compat/typescript>":
+  version: 6.0.2
+  resolution: "typescript@patch:typescript@npm%3A6.0.2#~builtin<compat/typescript>::version=6.0.2&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: a58d19ff9811c1764a299dd83ca20ed8020f0ab642906dafc880121b710751227201531fdc99878158205c356ac79679b0b61ac5b42eda0e28bfb180947a258d
+  checksum: 71a55653741fb12e81e7002c501ce2e5847e6cb251bc868de981561c07de178efed8f799ffc69cff92e162ceb44b67d25d60e293170db229cc5081afefababe3
   languageName: node
   linkType: hard
 
@@ -13747,18 +13747,6 @@ __metadata:
     acorn: ^8.14.0
     webpack-virtual-modules: ^0.6.2
   checksum: 1d95fe15ca47c71434c2b9bf696e5e6436022b56e5685b9602e4b5cdf4008125ed1491c8fab0d464d8a2f360b7fed645143019d3198e98e13b42bcfc5c9902a8
-  languageName: node
-  linkType: hard
-
-"unplugin@npm:^2.3.11":
-  version: 2.3.11
-  resolution: "unplugin@npm:2.3.11"
-  dependencies:
-    "@jridgewell/remapping": ^2.3.5
-    acorn: ^8.15.0
-    picomatch: ^4.0.3
-    webpack-virtual-modules: ^0.6.2
-  checksum: 9ed52ac0d154ed269b2a0844aa04b78900728db45a61bf9d78eadcef1c5a3ccb2751aba229df20972713bd8f43f2640a9c5b57a2d395b8e6ce6ba76ebf0c9ab8
   languageName: node
   linkType: hard
 
