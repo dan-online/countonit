@@ -4273,32 +4273,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^14.0.0":
-  version: 14.0.0
-  resolution: "@vueuse/core@npm:14.0.0"
+"@vueuse/core@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "@vueuse/core@npm:15.0.0"
   dependencies:
     "@types/web-bluetooth": ^0.0.21
-    "@vueuse/metadata": 14.0.0
-    "@vueuse/shared": 14.0.0
+    "@vueuse/metadata": 15.0.0
+    "@vueuse/shared": 15.0.0
   peerDependencies:
     vue: ^3.5.0
-  checksum: 46c5c2bed6eb5e2149dca9a5c9b0e81c7e8d1875dd64a7e8918c56cb24740797fd23b45b242c54b8c8a1ae46dbb245e4ea8b348ce43aa55207544c53556c3972
+  checksum: 154444822468dd7e57e24edc95e6e44cabdba9a4f74cae7c3649c6db8240afc596ffd73817dd40b97653a5911c7128e467624f7941ffc0d0f534c6f9454225f9
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:14.0.0":
-  version: 14.0.0
-  resolution: "@vueuse/metadata@npm:14.0.0"
-  checksum: fe4b58d6bb03c562d78b004d3f12824f4f7cdbea277444555d28db3cb5b5a8c0f697f82cf1ba81394e451e0e729f94ce8d9c541178ac7cff8c4a4545ba2c23b3
+"@vueuse/metadata@npm:15.0.0":
+  version: 15.0.0
+  resolution: "@vueuse/metadata@npm:15.0.0"
+  checksum: af4ee8e5d4f1f30dd5c8d282d864a6bdbd8c649fa7d24150e910075ba9c9a4f09a6a352fd8c5e24b721c56b09495683179973ffff142ddcc6ace18bc88bcd6fd
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:14.0.0":
-  version: 14.0.0
-  resolution: "@vueuse/shared@npm:14.0.0"
+"@vueuse/shared@npm:15.0.0":
+  version: 15.0.0
+  resolution: "@vueuse/shared@npm:15.0.0"
   peerDependencies:
     vue: ^3.5.0
-  checksum: d72b80e81fbf7b5e2a7ef09b9d28fa968e2be5227ee780a9bccfcbb9c0df7a38b60b783d70569456fdba688112d924152f7542feae966e9f3522be31e0ab66aa
+  checksum: 84d7e278b89f43fdb56860ae6cbcb79377abae868f173e608e4e3f855d76c23715993bf03c52baa9f40bec16b71840e7aaf8a8a513f1840dafe9fc20fbea0ef6
   languageName: node
   linkType: hard
 
@@ -5715,7 +5715,7 @@ __metadata:
     "@kevinmarrec/nuxt-pwa": ^0.17.0
     "@nuxtjs/color-mode": ^4.0.0
     "@types/canvas-confetti": ^1.9.0
-    "@vueuse/core": ^14.0.0
+    "@vueuse/core": ^15.0.0
     buffer: ^6.0.3
     canvas-confetti: ^1.9.3
     nuxt: ^4.0.0
